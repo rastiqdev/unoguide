@@ -1,0 +1,20 @@
+{
+    "name": "unoguide",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "github.com/rastiqdev/unoguide",
+    "author": "rastiqdev <contact@rastiqdev.me>",
+    "license": "MIT",
+    "devDependencies": {
+        "@vuepress/plugin-register-components": "2.0.0-rc.0",
+        "vuepress": "2.0.0-rc.0"
+    },
+    "scripts": {
+        "dev": "vuepress dev docs",
+        "build": "vuepress build docs",
+        "ghbuild": "NODE_OPTIONS=--max_old_space_size=16384 vuepress build docs"
+    },
+    "dependencies": {
+        "marked": "^4.0.16"
+    }
+}
