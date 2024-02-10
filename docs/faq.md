@@ -7,7 +7,7 @@ description: Réponses aux questions fréquemment posées à propos de UnoGuide.
 
 ### Qu'est-ce que le jailbreak ?
 
-Littéralement, "s'échapper de la cage". Le terme vient des modifications de l'iPhone, à cause de ses restrictions qui était beaucoup trop abusives. Ici, la cage sont toutes les restrictions données sur les Unowhy Y13 : pas d'accès au BIOS, pas d'accès au boot menu, et même pas d'accès aux droits administrateurs sur les ordinateurs.
+Littéralement, "s'échapper de la cage". Le terme vient des modifications de l'iPhone, à cause de ses restrictions qui était beaucoup trop abusives. Ici, la cage sont toutes les restrictions données sur les Unowhy Y13 : pas d'accès au BIOS, pas d'accès au boot menu, et même pas d'accès aux droits d'administrateur sur les ordinateurs.
 
 ### Pourquoi jailbreak votre Y13 ?
 
@@ -26,7 +26,7 @@ Plus sérieusement, vous ne risquez rien au niveau des sanctions en jailbreakant
 
 ### Qu'est-ce que je peux faire après avoir jailbreak mon Unowhy Y13 ?
 
-- Installer n'importe quel programme grâce aux droits administrateur.
+- Installer n'importe quel programme grâce aux droits d'administrateur.
 - Modifier le BIOS (avec Unowhy Tools)
 - Démarrer sur une clé USB (par exemple pour une distribution live Linux)
 

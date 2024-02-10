@@ -3,6 +3,8 @@ module.exports = [
     text: 'Guides',
     children: [
       '/get-started',
+      '/winre',
+      '/bios-passwords'
     ],
   },
   {

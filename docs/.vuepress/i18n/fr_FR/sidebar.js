@@ -25,6 +25,9 @@ module.exports = {
       text: 'UnoGuide',
       children: [
         '/get-started',
+        '/bios-passwords',
+        '/winre-verification',
+        '/winre'
       ],
     },
     support,

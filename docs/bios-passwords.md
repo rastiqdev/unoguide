@@ -4,7 +4,7 @@ title: "Mots de passe du BIOS"
 
 ## Préparation
 
-Si votre Unowhy Y13 est un 2021, une préparation additionnelle est requise. Sinon, vous pouvez passer à la partie suivante.
+Si votre Unowhy Y13 est un 2021, une préparation additionnelle est requise. Sinon, vous pouvez passer à la [partie suivante](/bios-passwords.html#mots-de-passe-du-bios).
 
 Vous aurez besoin de savoir quelle version de l'ENE vous avez, parce que le mot de passe est différent en fonction de cette dernière. Pour le savoir, appuyez sur les touches `Windows` et `R` en même temps, puis écrivez `cmd` pour ouvrir l'invite de commandes, et enfin, dans l'invite de commandes, `wmic bios get smbiosbiosversion`.
 
