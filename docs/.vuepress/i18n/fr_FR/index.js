@@ -5,7 +5,7 @@ module.exports = {
     lang: 'fr-FR',
     title: 'UnoGuide',
     description: 'Un guide pour jailbreak votre Unowhy Y13.',
-    discordNoticeText: "Si vous avez besoin de plus d'aide, demandez sur le [serveur Discord](https://discord.gg/dw3ZJ9u7WS) de la Unocorp pour de l'assistance.",
+    discordNoticeText: "Si vous avez besoin de plus d'aide, demandez sur le [serveur Discord](https://discord.gg/dw3ZJ9u7WS) de la {unocorp} pour de l'assistance.",
   },
   
   themeConfig: {
