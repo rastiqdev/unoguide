@@ -27,7 +27,8 @@ module.exports = {
         '/get-started',
         '/bios-passwords',
         '/winre-verification',
-        '/winre'
+        '/winre',
+        '/unlock-bios'
       ],
     },
     support,
