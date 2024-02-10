@@ -17,7 +17,7 @@ Malheureusement, la méthode WinRE ne fonctionne que sur très peu d'ordinateurs
 3. Maintenez `SHIFT` et cliquez sur "Redémarrer", puis sur "Redémarrer maintenant".
 4. Continuez à maintenir `SHIFT` jusqu'à ce que votre ordinateur redémarre, puis affiche le logo Windows avec un texte "Veuillez patienter". Vous devriez normalement arriver sur l'écran suivant :
 
-(insérer image WinRE)
+![WinRE](/assets/images/winre.png)
 
 5. Si ce dernier est bien apparu, vous pouvez utiliser cette méthode et devez continuer sur [WinRE](/winre.html). Sinon, si Windows a démarré normalement, vous ne pouvez pas utiliser cette méthode et devrez utiliser une [méthode alternative](/winre-verification.html#methodes-alternatives).
 
