@@ -19,3 +19,7 @@ Cette page considère que vous venez de [Vérification de WinRE](/winre-verifica
 4. Sélectionnez `Supprimer simplement mes fichiers`
 5. Cliquez sur `Réinitialiser`
 6. Une fois que la réinitialisation est terminée, effectuez le setup initial comme vous le feriez sur un ordinateur normal. Dû à une restriction imposée par la région, vous êtes obligés de vous connecter à un compte Microsoft. Mais si la réinitialisation s'est bien passée, vous devriez maintenant posséder les droits d'administrateur.
+
+::: tip
+Continuez vers [Débloquer le BIOS](/unlock-bios.html)
+:::
