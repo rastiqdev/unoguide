@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-f130dd90","path":"/site-navigation.html","title":"Navigation du site","lang":"fr-FR","frontmatter":{"title":"Navigation du site"},"headers":[],"git":{"updatedTime":1707470092000,"contributors":[{"name":"rastiqdev","email":"contact@rastiqdev.me","commits":1}]},"filePathRelative":"site-navigation.md"}');export{t as data};
