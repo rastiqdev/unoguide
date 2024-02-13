@@ -27,3 +27,7 @@ Cette page va nous permettre de débloquer le BIOS grâce à un outil créé par
 ::: danger
 Ne fermez **surtout pas** l'invite de commande et ne faites rien sur votre Y13 jusuqu'à ce qu'un texte vert disant "Done" apparaisse.
 :::
+
+::: tip
+Si le texte "Done" est bien apparu, votre Y13 est à présent jailbreak et vous pouvez fermer l'invite de commande et l'éteindre sans problème. Si vous voulez réinstaller Windows afin de ne pas rester sur une version non optimisée et contenant HiSqool Manager, continuez vers [Réinstallation de Windows](/windows-reinstall.html).
+:::

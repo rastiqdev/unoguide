@@ -10,6 +10,10 @@ Cette méthode consistera à utiliser le mode [WinRE](https://learn.microsoft.co
 Cette page considère que vous venez de [Vérification de WinRE](/winre-verification.html).
 :::
 
+::: danger
+En suivant cette page, tous les fichiers stockés sur votre Y13 seront supprimés. Soyez sûr d'avoir sauvegardé tous vos fichiers importants sur une clé USB. Si vous ne l'avez pas fait, cliquez sur "Continuer", sauvegardez les fichiers, puis recommencez à partir de [Vérification de WinRE](/winre-verification.html).
+:::
+
 ## Instructions
 
 1. Cliquez sur `Dépannage`
