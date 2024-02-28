@@ -23,7 +23,7 @@ En suivant cette page, tous les fichiers stockés sur votre Y13 seront supprimé
 4. Sélectionnez `Supprimer simplement mes fichiers`
 5. Cliquez sur `Réinitialiser`
 6. Une fois que la réinitialisation est terminée, un logo Windows 11 animé suivant d'un écran demandant `Est-ce le bon pays ou la bonne région` devrait apparaître. Appuyez sur les touches `SHIFT` et `F10` en même temps, puis dans l'invite de commandes qui vient d'apparaître, écrivez `oobe\bypassnro`. Votre Y13 devrait redémarrer.
-7. Une fois redémarré, effectuez le setup initial comme vous le feriez sur un ordinateur normal. À l'étape pour se connecter à Internet, sélectionnez "Je n'ai pas Internet", puis sur "Expérience limitée". Cela permettra de créer un compte hors-ligne au lieu d'avoir à se connecter à un compte Microsoft. Refusez aussi toutes les options de vie privée.
+7. Une fois redémarré, effectuez le setup initial comme vous le feriez sur un ordinateur normal. À l'étape pour se connecter à Internet, sélectionnez "Je n'ai pas Internet", puis sur "Expérience limitée". Cela permettra de créer un compte hors-ligne au lieu d'avoir à se connecter à un compte Microsoft. Sélectionnez aussi **Non** à toutes les options sur la vie privée.
 
 ::: tip
 Une fois sorti de l'OOBE (*Out Of Box Experience*, le logiciel du setup), vous pouvez vous connecter à Internet.
