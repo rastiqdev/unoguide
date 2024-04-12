@@ -1,0 +1,4 @@
+import{_ as t,o as e,c as i,e as s}from"./app-C-0aqp7d.js";const a={},c=s(`<div><div class="credits"><div class="user"><img src="https://github.com/rastiqdev.png"></div><div class="user"><h3>rastiqdev</h3><p>RASTIQ</p><a class="social-icon" href="https://twitter.com/rastiqdev" target="_blank"><i class="fab fa-twitter"></i></a><a class="social-icon" href="https://github.com/rastiqdev" target="_blank"><i class="fab fa-github"></i></a></div></div></div><h2 id="credits" tabindex="-1"><a class="header-anchor" href="#credits" aria-hidden="true">#</a> Crédits</h2><pre>    + rastiqdev
+    + STY1001
+    + emiyl
+</pre><p>Si je vous ai oublié, contactez moi et j&#39;ajouterai votre nom.</p>`,4),r=[c];function d(o,n){return e(),i("div",null,r)}const h=t(a,[["render",d],["__file","credits.html.vue"]]);export{h as default};
