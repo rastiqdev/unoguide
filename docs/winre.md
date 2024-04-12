@@ -11,7 +11,7 @@ Cette page considère que vous venez de [Vérification de WinRE](/winre-verifica
 :::
 
 ::: danger
-En suivant cette page, tous les fichiers stockés sur votre Y13 seront supprimés. Soyez sûr d'avoir sauvegardé tous vos fichiers importants sur une clé USB. Si vous ne l'avez pas fait, cliquez sur "Continuer", sauvegardez les fichiers, puis recommencez à partir de [Vérification de WinRE](/winre-verification.html).
+En suivant cette page, tous les fichiers stockés sur votre Y13 seront supprimés. Soyez sûr d'avoir sauvegardé tous vos fichiers importants sur une clé USB. Si vous ne l'avez pas fait, cliquez sur `Continuer`, sauvegardez les fichiers, puis recommencez à partir de [Vérification de WinRE](/winre-verification.html).
 :::
 
 ## Instructions
@@ -22,11 +22,16 @@ En suivant cette page, tous les fichiers stockés sur votre Y13 seront supprimé
 3. Sélectionnez `Réinstallation locale`
 4. Sélectionnez `Supprimer simplement mes fichiers`
 5. Cliquez sur `Réinitialiser`
-6. Une fois que la réinitialisation est terminée, un logo Windows 11 animé suivant d'un écran demandant `Est-ce le bon pays ou la bonne région` devrait apparaître. Appuyez sur les touches `SHIFT` et `F10` en même temps, puis dans l'invite de commandes qui vient d'apparaître, écrivez `oobe\bypassnro`. Votre Y13 devrait redémarrer.
-7. Une fois redémarré, effectuez le setup initial comme vous le feriez sur un ordinateur normal. À l'étape pour se connecter à Internet, sélectionnez "Je n'ai pas Internet", puis sur "Expérience limitée". Cela permettra de créer un compte hors-ligne au lieu d'avoir à se connecter à un compte Microsoft. Sélectionnez aussi **Non** à toutes les options sur la vie privée.
+
+Une fois que la réinitialisation est terminée, un logo Windows 11 animé suivant d'un écran demandant `Est-ce le bon pays ou la bonne région` devrait apparaître. Vous êtes donc rentré dans l'*OOBE*, ou *Out Of Box Experience*, qui est le logiciel qui se charge de faire la configuration initiale de Windows. 
+
+![Écran initial de l'OOBE](/assets/images/oobe-first-screen.png)
+
+6. Appuyez sur les touches `SHIFT` et `F10` en même temps, puis dans l'invite de commandes qui vient d'apparaître, écrivez `oobe\bypassnro`. Votre Y13 devrait redémarrer.
+7. Une fois redémarré, sélectionnez les options que vous voulez dans l'OOBE comme vous le feriez sur un ordinateur normal. À l'étape pour se connecter à Internet, sélectionnez `Je n'ai pas Internet`, puis sur `Expérience limitée`. Cela permettra de créer un compte hors-ligne au lieu d'avoir à se connecter à un compte Microsoft. Sélectionnez aussi **Non** à toutes les options sur la vie privée.
 
 ::: tip
-Une fois sorti de l'OOBE (*Out Of Box Experience*, le logiciel du setup), vous pouvez vous connecter à Internet.
+Une fois sorti de l'OOBE, vous pouvez vous connecter à Internet.
 :::
 
 ::: tip

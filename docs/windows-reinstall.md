@@ -9,28 +9,28 @@ title: Réinstallation de Windows
 - Le logiciel [Rufus](https://rufus.ie/)
 
 ::: warning
-Vous AVEZ besoin d'une souris USB pour effectuer l'installation de Windows. Les pilotes du pavé tactile du Y13 ne sont pas inclus par défaut sur Windows donc vous ne pourrez pas l'utiliser tant que vous n'aurez pas réinstallé les pilotes, ce que nous ferons plus tard.
+Vous **avez** besoin d'une souris USB pour effectuer l'installation de Windows. Les pilotes du pavé tactile du Y13 ne sont pas inclus par défaut sur Windows donc vous ne pourrez pas l'utiliser tant que vous n'aurez pas réinstallé les pilotes, ce que nous ferons plus tard.
 :::
 
 ::: tip
-Si vous avez déjà une clé USB avec une image pour installer Windows (Ventoy ou simple ISO), vous pouvez directement passer au démarrage sur la clé USB.
+Si vous avez déjà une clé USB avec une image pour installer Windows (Ventoy ou simple ISO), vous pouvez directement passer au [démarrage sur la clé USB](/windows-reinstall.html#demarrage-sur-la-cle-usb).
 :::
 
 ## Télécharger une ISO de Windows
 
 ### Méthode 1 - MSDL
 
-1. Allez sur https://msdl.gravesoft.dev/#2935
+1. Allez sur [MSDL](https://msdl.gravesoft.dev/#2935)
 2. Sélectionnez la langue que vous voulez utiliser
 3. Cliquez sur `IsoX64 Download`
 
 ### Méthode 2 - OS.click
 
 ::: tip
-Cette méthode n'est qu'utile seulement si vous voulez utiliser une version plus ancienne de Windows 11, ce qui dans la plupart des cas ne sert à rien.
+Cette méthode n'est qu'utile seulement si vous voulez utiliser une version plus ancienne de Windows 11 ou si MSDL est hors-ligne, privilégiez donc la méthode avec MSDL.
 :::
 
-1. Allez sur https://os.click/en
+1. Allez sur [OS.click](https://os.click/en)
 2. Cliquez sur `GET MY ISO`
 3. Sélectionnez `Windows`
 4. Sélectionnez `Windows 11`
@@ -70,12 +70,17 @@ Cette méthode n'est qu'utile seulement si vous voulez utiliser une version plus
 3. Cliquez sur `Suivant` puis sur `Installer maintenant`.
 4. Attendez encore un peu, puis cliquez sur `Je n'ai pas de clé de produit (Product Key)`. Ne vous inquiétez pas, Windows s'activera tout seul, donc nous avons pas besoin de mettre de clé de produit.
 5. Sélectionnez l'édition de Windows que vous souhaitez installer (Windows 11 Professionnel est celle que je vous recommande) puis cliquez sur suivant.
-4. Cochez la case `J'accepte ...` et cliquez sur `Suivant` pour accepter les termes du contrat de license logiciel Microsoft que vous avez tous lu :)
-5. Cliquez sur `Personnalisé`, puis pour chaque partition dans la liste, sélectionnez la et cliquez sur formater.
-6. Cliquez sur `Nouveau` puis sur `Appliquer` et `OK`.
+6. Cochez la case `J'accepte ...` et cliquez sur `Suivant` pour accepter les termes du contrat de license logiciel Microsoft que vous avez tous lu :)
+7. Cliquez sur `Personnalisé`
+8. Pour chaque partition dans la liste, sélectionnez la et cliquez sur `Supprimer`.
+9. Cliquez sur `Nouveau` puis sur `Appliquer` et `OK`.
 
-Les étapes 5 et 6 devraient ressembler à ça :
+Les étapes 8 et 9 devraient ressembler à ça :
 
 ![Création des partition avec l'installateur de Windows 11](/assets/images/win11-partitions.gif)
 
-7. Sélectionnez la dernière partition puis cliquez sur `Suivant`, et attendez que Windows finisse de s'installer.
+8. Sélectionnez la dernière partition puis cliquez sur `Suivant`, et attendez que Windows finisse de s'installer. L'installation peut durer assez longtemps, c'est normal. (sur une machine virtuelle ça a duré environ 30 minutes donc attendez vous à ce que ça dure autant sur un Y13)
+
+Une fois l'installation terminée (enfin !), vous arriverez dans l'OOBE (oui, le même écran de configuration initiale que toute à l'heure si vous avez suivi la méthode WinRE). Vous pouvez donc suivre les étapes 6 et 7 de la page [WinRE](/winre.html), puisque nous allons mettre la même configuration.
+
+![Écran initial de l'OOBE](/assets/images/oobe-first-screen.png)

@@ -14,8 +14,8 @@ Malheureusement, la méthode WinRE ne fonctionne que sur très peu d'ordinateurs
 
 1. Allumez votre ordinateur
 2. Sur la page de connection, cliquez sur le bouton en bas à droite.
-3. Maintenez `SHIFT` et cliquez sur "Redémarrer", puis sur "Redémarrer maintenant".
-4. Continuez à maintenir `SHIFT` jusqu'à ce que votre ordinateur redémarre, puis affiche le logo Windows avec un texte "Veuillez patienter". Vous devriez normalement arriver sur l'écran suivant :
+3. Maintenez la touche `SHIFT` et cliquez sur `Redémarrer`, puis sur `Redémarrer maintenant`.
+4. Continuez à maintenir `SHIFT` jusqu'à ce que votre ordinateur redémarre, puis affiche le logo Windows avec un texte `Veuillez patienter`. Vous devriez normalement arriver sur l'écran suivant :
 
 ![WinRE](/assets/images/winre.png)
 
