@@ -75,11 +75,11 @@ Les instructions sont divisées en deux parties, en fonction de si vous avez cho
 
 1. Cet écran devrait apparaître, cliquez sur suivant :
 
-![](/assets/images/win11-installer-first-screen.png)
+![](/assets/images/win-installer/win11/first-screen.png)
 
 2. Cliquez sur `Installer maintenant` :
 
-![](/assets/images/win11-installer-install-button-screen.png)
+![](/assets/images/win-installer/win11/install-button.png)
 
 ::: tip
 L'installateur sélectionnera automatiquement la version Windows 11 Pro Education, puisque la clé de produit est incluse dans l'UEFI.
@@ -87,19 +87,19 @@ L'installateur sélectionnera automatiquement la version Windows 11 Pro Educatio
 
 3. Cochez la case `J'accepte ...` et cliquez sur `Suivant` pour accepter les termes du contrat de license logiciel Microsoft que vous avez bien évidemment lu :
 
-![](/assets/images/win11-installer-tos-screen.png)
+![](/assets/images/win-installer/win11/tos-screen.png)
 
 4. Cliquez sur `Personnalisé` :
 
-![](/assets/images/win11-installer-install-mode-screen.png)
+![](/assets/images/win-installer/win11/install-mode.png)
 
 5. Pour chaque partition dans la liste, sélectionnez la et cliquez sur `Supprimer` :
 
-![](/assets/images/win11-installer-partitions-screen.png)
+![](/assets/images/win-installer/win11/partitions.png)
 
 6. Cliquez sur la partition non allouée qu'il reste puis sur `Suivant` :
 
-![](/assets/images/win11-installer-select-partition-screen.png)
+![](/assets/images/win-installer/win11/select-partition.png)
 
 7. Attendez que l'installation se termine.
 </details>
@@ -109,31 +109,31 @@ L'installateur sélectionnera automatiquement la version Windows 11 Pro Educatio
 
 1. Cet écran devrait apparaître, cliquez sur suivant :
 
-![](/assets/images/win11-installer-first-screen.png)
+![](/assets/images/win-installer/win10/first-screen.png)
 
 2. Cliquez sur `Installer maintenant` :
 
-![](/assets/images/win11-installer-install-button-screen.png)
+![](/assets/images/win-installer/win10/install-button.png)
 
 ::: tip
 L'installateur sélectionnera automatiquement la version Windows 10 Pro Education, puisque la clé de produit est incluse dans l'UEFI.
 :::
 
-3. Cochez la case `J'accepte ...` et cliquez sur `Suivant` pour accepter les termes du contrat de license logiciel Microsoft que vous avez bien évidemment lu :
+1. Cochez la case `J'accepte ...` et cliquez sur `Suivant` pour accepter les termes du contrat de license logiciel Microsoft que vous avez bien évidemment lu :
 
-![](/assets/images/win11-installer-tos-screen.png)
+![](/assets/images/win-installer/win10/tos-screen.png)
 
 4. Cliquez sur `Personnalisé` :
 
-![](/assets/images/win11-installer-install-mode-screen.png)
+![](/assets/images/win-installer/win10/install-mode.png)
 
 5. Pour chaque partition dans la liste, sélectionnez la et cliquez sur `Supprimer` :
 
-![](/assets/images/win11-installer-partitions-screen.png)
+![](/assets/images/win-installer/win10/partitions.png)
 
 6. Cliquez sur la partition non allouée qu'il reste puis sur `Suivant` :
 
-![](/assets/images/win11-installer-select-partition-screen.png)
+![](/assets/images/win-installer/win10/select-partition.png)
 
 7. Attendez que l'installation se termine.
 </details>
@@ -147,7 +147,7 @@ Encore une fois, il faut suivre des instructions différentes en fonction de si 
 
 Commencez à configurer votre nouvelle installation jusqu'à arriver sur la page pour se connecter à Internet :
 
-![](/assets/images/win11-oobe-internet-screen.png)
+![](/assets/images/win-oobe/win11/internet.png)
 
 1. Cliquez sur `Je n'ai pas Internet`.
 
@@ -156,16 +156,16 @@ Commencez à configurer votre nouvelle installation jusqu'à arriver sur la page
 
 Appuyez simultanément sur `Shift` et `F10` pour ouvrir l'invite de commandes, puis dedans entrez `oobe\bypassnro`. Votre Y13 va redémarrer, puis vous pourrez voir le bouton.
 
-![](/assets/images/win11-cmd-bypassnro-screen.png)
+![](/assets/images/win-oobe/win11/bypassnro.png)
 </details>
 
 2. Cliquez sur `Continuer avec l'installation limitée` :
 
-![](/assets/images/win11-oobe-limited-button-screen.png)
+![](/assets/images/win-oobe/win11/limited-installation.png)
 
 3. Vous pouvez maintenant configurer votre compte local :
 
-![](/assets/images/win11-oobe-local-account.png)
+![](/assets/images/win-oobe/win11/local-account.png)
 
 ::: tip
 N'oubliez pas de dire non à toutes les options concernant la vie privée pour envoyer le moins de données possibles à tonton Bill Gates. 😉
@@ -177,21 +177,21 @@ N'oubliez pas de dire non à toutes les options concernant la vie privée pour e
 
 Commencez à configurer votre nouvelle installation jusqu'à arriver dans la catégorie `Compte` :
 
-![](/assets/images/win10-oobe-account-type-screen.png)
+![](/assets/images/win-oobe/win10/account-type.png)
 
 1. Sélectionnez `Configurer pour une utilisation personnelle` puis cliquez sur `Suivant`.
 
 2. Cliquez sur `Compte hors connexion` :
 
-![](/assets/images/win10-oobe-ms-login-screen.png)
+![](/assets/images/win-oobe/win10/ms-login.png)
 
 3. Cliquez sur `Expérience limitée` :
 
-![](/assets/images/win10-oobe-ms-login2-screen.png)
+![](/assets/images/win-oobe/win10/ms-login2.png)
 
 4. Vous pouvez maintenant configurer votre compte local :
 
-![](/assets/images/win10-oobe-local-account.png)
+![](/assets/images/win-oobe/win10/local-account.png)
 
 ::: tip
 N'oubliez pas de dire non à toutes les options concernant la vie privée pour envoyer le moins de données possibles à tonton Bill Gates. 😉
