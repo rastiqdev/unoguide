@@ -19,7 +19,7 @@ Lisez en profondeur toutes les pages d'introduction (y compris celle-ci !) avant
 :::
 
 ::: tip
-Ce guide a été inspiré par toutes les recherches faites par [STY1001](https://sty1001.fr) et la [\{unocorp\}](https://discord.com/invite/dw3ZJ9u7WS), un grand merci à eux.
+Ce guide a été inspiré par toutes les recherches faites par [STY1001](https://sty1001.com) et la [\{unocorp\}](https://discord.com/invite/dw3ZJ9u7WS), un grand merci à eux.
 :::
 
 ## Qu'est-ce que le jailbreak ?
