@@ -25,10 +25,10 @@ module.exports = {
       text: 'UnoGuide',
       children: [
         '/get-started',
-        '/bios-passwords',
+        '/uefi-passwords',
         '/winre-verification',
         '/winre',
-        '/unlock-bios'
+        '/unlock-uefi'
       ],
     },
     support,

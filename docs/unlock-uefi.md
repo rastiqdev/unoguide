@@ -1,9 +1,9 @@
 ---
-title: Débloquer le BIOS
+title: Débloquer l'UEFI
 ---
 
 ::: tip
-Cette page va nous permettre de débloquer le BIOS grâce à un outil créé par [STY1001](https://github.com/sty1001) afin de pouvoir faire une réinstallation complète de Windows.
+Cette page va nous permettre de débloquer l'UEFI grâce à un outil créé par [STY1001](https://github.com/sty1001) afin de pouvoir faire une réinstallation complète de Windows.
 :::
 
 ## Ce dont vous aurez besoin
@@ -22,7 +22,7 @@ Cette page va nous permettre de débloquer le BIOS grâce à un outil créé par
 
 ![Sélection de la version](/assets/images/bios-unlocker-version-selection.png)
 
-5. Vous êtes maintenant prêt à flash le BIOS de votre Y13. Fermez les programmes en arrière-plan, **branchez votre chargeur** et mettez `Y`.
+5. Vous êtes maintenant prêt à flash l'UEFI de votre Y13. Fermez les programmes en arrière-plan, **branchez votre chargeur** et mettez `Y`.
 
 ::: danger
 Ne fermez **surtout pas** l'invite de commande et ne faites rien sur votre Y13 jusuqu'à ce qu'un texte vert disant `Done` apparaisse.

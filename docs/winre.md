@@ -39,5 +39,5 @@ Si la réinitialisation s'est bien passée, vous devriez maintenant posséder le
 :::
 
 ::: tip
-Continuez vers [Débloquer le BIOS](/unlock-bios.html)
+Continuez vers [Débloquer l'UEFI](/unlock-uefi.html)
 :::

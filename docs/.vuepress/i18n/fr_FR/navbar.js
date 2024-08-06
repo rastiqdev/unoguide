@@ -4,8 +4,8 @@ module.exports = [
     children: [
       '/get-started',
       '/winre',
-      '/unlock-bios',
-      '/bios-passwords',
+      '/unlock-uefi',
+      '/uefi-passwords',
     ],
   },
   {

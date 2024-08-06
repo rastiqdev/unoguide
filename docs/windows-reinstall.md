@@ -56,7 +56,7 @@ Cette méthode n'est qu'utile seulement si vous voulez utiliser une version plus
 ## Démarrage sur la clé USB
 
 1. Allumez votre Y13.
-2. Quand le logo Unowhy apparaît, appuyez rapidement et plusieurs fois sur la touche Échap jusqu'à rentrer dans le menu du BIOS.
+2. Quand le logo Unowhy apparaît, appuyez rapidement et plusieurs fois sur la touche Échap jusqu'à rentrer dans le menu de l'UEFI.
 3. Allez dans la catégorie `Save & Exit` en appuyant 5 fois sur la touche flèche droite.
 4. Sélectionnez votre clé USB dans la catégorie `Boot Override`.
 
