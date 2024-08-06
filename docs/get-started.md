@@ -2,6 +2,14 @@
 title: "Commencer"
 ---
 
+## À lire avant de continuer
+
+Attention, la plupart des méthodes vont à un moment ou un autre vous demander de réinitialiser votre Y13. Les principales choses que vous allez perdre en le faisant sont :
+
+- Tous les fichiers dessus (sauvegardez les sur un autre ordinateur)
+- La connexion à votre compte monlycee.net sur Windows (la connexion avec monlycee.net sur Microsoft Office et sur votre ENT sera toujours possible donc c'est positif)
+- Les logiciels installés automatiquement par vos enseignants (il faudra les installer manuellement)
+
 ## Sélection d'une méthode
 
 Selon l'année de votre Unowhy Y13, différentes méthodes existent pour effectuer un jailbreak. Veuillez choisir la méthode correspondante avec le tableau ci-dessous.

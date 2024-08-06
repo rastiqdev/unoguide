@@ -4,36 +4,38 @@ title: Réinstallation de Windows
 
 ## Choses nécessaires
 
-- Une clé USB d'au moins 8 GB
-- Une souris USB
-- Le logiciel [Rufus](https://rufus.ie/)
+- Un ordinateur sur Windows 8 ou ultérieur avec les droits d'administrateur
+- Le logiciel [Rufus](https://rufus.ie/) à installer sur l'ordinateur mentionné ci-dessus
+- Une clé USB d'au moins 8 Go
+- Une souris USB (si votre Y13 est un 2023)
 
 ::: warning
-Vous **avez** besoin d'une souris USB pour effectuer l'installation de Windows. Les pilotes du pavé tactile du Y13 ne sont pas inclus par défaut sur Windows donc vous ne pourrez pas l'utiliser tant que vous n'aurez pas réinstallé les pilotes, ce que nous ferons plus tard.
+Si votre Y13 est un 2023, vous **avez** besoin d'une souris USB pour effectuer l'installation de Windows. Les pilotes du pavé tactile ne sont pas inclus par défaut sur Windows donc vous ne pourrez pas l'utiliser tant que vous n'aurez pas réinstallé les pilotes, ce que nous ferons plus tard.
 :::
 
 ::: tip
-Si vous avez déjà une clé USB avec une image pour installer Windows (Ventoy ou simple ISO), vous pouvez directement passer au [démarrage sur la clé USB](/windows-reinstall.html#demarrage-sur-la-cle-usb).
+Si vous avez déjà une clé USB avec une image pour installer Windows (Ventoy ou simple ISO), vous pouvez directement passer au [démarrage sur la clé USB](/windows-reinstall.html#demarrage-sur-la-cle-usb). Également, si vous souhaitez flasher votre ISO avec un autre logiciel, tel que Balena Etcher ou dd, libre à vous de le faire.
 :::
 
 ## Télécharger une ISO de Windows
 
 ### Méthode 1 - MSDL
 
-1. Allez sur [MSDL](https://msdl.gravesoft.dev/#2935)
-2. Sélectionnez la langue que vous voulez utiliser
-3. Cliquez sur `IsoX64 Download`
+1. Allez sur [MSDL](https://msdl.gravesoft.dev/)
+2. Sélectionnez "Windows 11 23H2 v2" pour Windows 11 ou "Windows 10 22H2 v1" pour Windows 10
+3. Sélectionnez la langue que vous voulez utiliser
+4. Cliquez sur `IsoX64 Download`
 
 ### Méthode 2 - OS.click
 
 ::: tip
-Cette méthode n'est qu'utile seulement si vous voulez utiliser une version plus ancienne de Windows 11 ou si MSDL est hors-ligne, privilégiez donc la méthode avec MSDL.
+Cette méthode n'est qu'utile seulement si vous voulez utiliser une version plus ancienne de Windows 11/10 ou si MSDL est hors-ligne, privilégiez donc la méthode avec MSDL.
 :::
 
 1. Allez sur [OS.click](https://os.click/en)
 2. Cliquez sur `GET MY ISO`
 3. Sélectionnez `Windows`
-4. Sélectionnez `Windows 11`
+4. Sélectionnez `Windows 11` ou `Windows 10`
 5. Sélectionnez la première option
 6. Sélectionnez la première option
 7. Sélectionnez `Multi-Edition`
@@ -44,43 +46,94 @@ Cette méthode n'est qu'utile seulement si vous voulez utiliser une version plus
 ## Flasher l'ISO sur votre clé USB
 
 ::: warning
-[WIP]
+Il faut noter que flasher votre ISO sur votre clé USB va la formatter, donc tout ce qui est actuellement dessus sera effacé !
 :::
 
-1. Ouvrez Rufus
-2. Vérifiez que `Périphérique` est bien votre clé USB
-3. Cliquez sur le bouton `SÉLECTION` puis sélectionnez votre ISO
-4. Cliquez sur `DÉMARRER`
-
+1. Ouvrez Rufus sur votre ordinateur avec les droits d'administrateur.
+2. Vérifiez que `Périphérique` est bien votre clé USB.
+3. Cliquez sur le bouton `SÉLECTION` puis sélectionnez votre ISO.
+4. Cliquez sur `DÉMARRER`.
+5. Un popup va apparaître, laissez les paramètres par défaut et cliquez sur `OK`.
+6. Une fois l'opération terminée, vous pouvez fermer Rufus et débranchez votre clé USB.
 
 ## Démarrage sur la clé USB
 
+1. Branchez votre clé USB à votre Y13.
 1. Allumez votre Y13.
 2. Quand le logo Unowhy apparaît, appuyez rapidement et plusieurs fois sur la touche Échap jusqu'à rentrer dans le menu de l'UEFI.
-3. Allez dans la catégorie `Save & Exit` en appuyant 5 fois sur la touche flèche droite.
-4. Sélectionnez votre clé USB dans la catégorie `Boot Override`.
+3. Allez dans la catégorie `Save & Exit` avec les touches `←` (flèche gauche) et `→` (flèche droite).
+4. Sélectionnez votre clé USB dans la catégorie `Boot Override` avec les touches `↓` (flèche bas) et `↑` (flèche haut) et appuyer sur Entrer pour démarrer.
+5. Appuyez sur n'importe quelle touche quand le texte `Press any key to boot from CD or DVD` apparaît.
+6. Attendez une vingtaine de secondes, le temps que l'installateur démarre.
 
 ## Installation de Windows
 
-1. Appuyez sur n'importe quelle touche quand le texte `Press any key to boot from CD or DVD` apparaît.
-2. Attendez une vingtaine de secondes. Cet écran devrait apparaître :
+Les instructions sont divisées en deux parties, en fonction de si vous avez choisi d'installer Windows 11 ou 10.
 
-![Premier écran de l'installateur de Windows 11](/assets/images/win11-installer-first-screen.png)
+<details>
+<summary>Instructions pour Windows 11</summary>
 
-3. Cliquez sur `Suivant` puis sur `Installer maintenant`.
-4. Attendez encore un peu, puis cliquez sur `Je n'ai pas de clé de produit (Product Key)`. Ne vous inquiétez pas, Windows s'activera tout seul, donc nous avons pas besoin de mettre de clé de produit.
-5. Sélectionnez l'édition de Windows que vous souhaitez installer (Windows 11 Professionnel est celle que je vous recommande) puis cliquez sur suivant.
-6. Cochez la case `J'accepte ...` et cliquez sur `Suivant` pour accepter les termes du contrat de license logiciel Microsoft que vous avez tous lu :)
-7. Cliquez sur `Personnalisé`
-8. Pour chaque partition dans la liste, sélectionnez la et cliquez sur `Supprimer`.
-9. Cliquez sur `Nouveau` puis sur `Appliquer` et `OK`.
+1. Cet écran devrait apparaître, cliquez sur suivant :
 
-Les étapes 8 et 9 devraient ressembler à ça :
+![](/assets/images/win11-installer-first-screen.png)
 
-![Création des partition avec l'installateur de Windows 11](/assets/images/win11-partitions.gif)
+2. Cliquez sur `Installer maintenant` :
 
-8. Sélectionnez la dernière partition puis cliquez sur `Suivant`, et attendez que Windows finisse de s'installer. L'installation peut durer assez longtemps, c'est normal. (sur une machine virtuelle ça a duré environ 30 minutes donc attendez vous à ce que ça dure autant sur un Y13)
+![](/assets/images/win11-installer-install-button-screen.png)
 
-Une fois l'installation terminée (enfin !), vous arriverez dans l'OOBE (oui, le même écran de configuration initiale que toute à l'heure si vous avez suivi la méthode WinRE). Vous pouvez donc suivre les étapes 6 et 7 de la page [WinRE](/winre.html), puisque nous allons mettre la même configuration.
+::: tip
+L'installateur sélectionnera automatiquement la version Windows 11 Pro Education, puisque la clé de produit est incluse dans l'UEFI.
+:::
 
-![Écran initial de l'OOBE](/assets/images/oobe-first-screen.png)
+3. Cochez la case `J'accepte ...` et cliquez sur `Suivant` pour accepter les termes du contrat de license logiciel Microsoft que vous avez bien évidemment lu :
+
+![](/assets/images/win11-installer-tos-screen.png)
+
+4. Cliquez sur `Personnalisé` :
+
+![](/assets/images/win11-installer-install-mode-screen.png)
+
+5. Pour chaque partition dans la liste, sélectionnez la et cliquez sur `Supprimer` :
+
+![](/assets/images/win11-installer-partitions-screen.png)
+
+6. Cliquez sur la partition non allouée qu'il reste puis sur `Suivant` :
+
+![](/assets/images/win11-installer-select-partition-screen.png)
+
+7. Attendez que l'installation se termine.
+</details>
+
+<details>
+<summary>Instructions pour Windows 10</summary>
+
+1. Cet écran devrait apparaître, cliquez sur suivant :
+
+![](/assets/images/win11-installer-first-screen.png)
+
+2. Cliquez sur `Installer maintenant` :
+
+![](/assets/images/win11-installer-install-button-screen.png)
+
+::: tip
+L'installateur sélectionnera automatiquement la version Windows 10 Pro Education, puisque la clé de produit est incluse dans l'UEFI.
+:::
+
+3. Cochez la case `J'accepte ...` et cliquez sur `Suivant` pour accepter les termes du contrat de license logiciel Microsoft que vous avez bien évidemment lu :
+
+![](/assets/images/win11-installer-tos-screen.png)
+
+4. Cliquez sur `Personnalisé` :
+
+![](/assets/images/win11-installer-install-mode-screen.png)
+
+5. Pour chaque partition dans la liste, sélectionnez la et cliquez sur `Supprimer` :
+
+![](/assets/images/win11-installer-partitions-screen.png)
+
+6. Cliquez sur la partition non allouée qu'il reste puis sur `Suivant` :
+
+![](/assets/images/win11-installer-select-partition-screen.png)
+
+7. Attendez que l'installation se termine.
+</details>

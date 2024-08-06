@@ -16,12 +16,12 @@ En suivant cette page, tous les fichiers stockés sur votre Y13 seront supprimé
 
 ## Instructions
 
-1. Cliquez sur `Dépannage`
-2. Cliquez sur `Réinitialiser ce PC`
-3. Sélectionnez `Supprimer tout`
-3. Sélectionnez `Réinstallation locale`
-4. Sélectionnez `Supprimer simplement mes fichiers`
-5. Cliquez sur `Réinitialiser`
+1. Cliquez sur `Dépannage`.
+2. Cliquez sur `Réinitialiser ce PC`.
+3. Sélectionnez `Supprimer tout`.
+3. Sélectionnez `Réinstallation locale`.
+4. Sélectionnez `Supprimer simplement mes fichiers`.
+5. Cliquez sur `Réinitialiser`.
 
 Une fois que la réinitialisation est terminée, un logo Windows 11 animé suivant d'un écran demandant `Est-ce le bon pays ou la bonne région` devrait apparaître. Vous êtes donc rentré dans l'*OOBE*, ou *Out Of Box Experience*, qui est le logiciel qui se charge de faire la configuration initiale de Windows. 
 
@@ -39,5 +39,5 @@ Si la réinitialisation s'est bien passée, vous devriez maintenant posséder le
 :::
 
 ::: tip
-Continuez vers [Débloquer l'UEFI](/unlock-uefi.html)
+Continuez vers [Débloquer l'UEFI](/unlock-uefi.html).
 :::
