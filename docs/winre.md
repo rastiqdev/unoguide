@@ -16,23 +16,36 @@ En suivant cette page, tous les fichiers stockés sur votre Y13 seront supprimé
 
 ## Instructions
 
-1. Cliquez sur `Dépannage`.
-2. Cliquez sur `Réinitialiser ce PC`.
-3. Sélectionnez `Supprimer tout`.
-3. Sélectionnez `Réinstallation locale`.
-4. Sélectionnez `Supprimer simplement mes fichiers`.
-5. Cliquez sur `Réinitialiser`.
+1. Cliquez sur `Dépannage` :
 
-Une fois que la réinitialisation est terminée, un logo Windows 11 animé suivant d'un écran demandant `Est-ce le bon pays ou la bonne région` devrait apparaître. Vous êtes donc rentré dans l'*OOBE*, ou *Out Of Box Experience*, qui est le logiciel qui se charge de faire la configuration initiale de Windows. 
+![](/assets/images/winre/troubleshooting.png)
 
-![Écran initial de l'OOBE](/assets/images/oobe-first-screen.png)
+2. Cliquez sur `Réinitialiser ce PC` :
 
-6. Appuyez sur les touches `SHIFT` et `F10` en même temps, puis dans l'invite de commandes qui vient d'apparaître, écrivez `oobe\bypassnro`. Votre Y13 devrait redémarrer.
-7. Une fois redémarré, sélectionnez les options que vous voulez dans l'OOBE comme vous le feriez sur un ordinateur normal. À l'étape pour se connecter à Internet, sélectionnez `Je n'ai pas Internet`, puis sur `Expérience limitée`. Cela permettra de créer un compte hors-ligne au lieu d'avoir à se connecter à un compte Microsoft. Sélectionnez aussi **Non** à toutes les options sur la vie privée.
+![](/assets/images/winre/reset.png)
 
-::: tip
-Une fois sorti de l'OOBE, vous pouvez vous connecter à Internet.
-:::
+3. Sélectionnez `Supprimer tout` :
+
+![](/assets/images/winre/deleteall.png)
+
+4. Sélectionnez `Réinstallation locale` :
+
+![](/assets/images/winre/local-reinstallation.png)
+
+5. Sélectionnez `Non` :
+
+![](/assets/images/winre/no.png)
+
+6. Sélectionnez `Supprimer simplement mes fichiers` :
+
+![](/assets/images/winre/simply-delete.png)
+
+7. Cliquez sur `Réinitialiser` :
+
+![](/assets/images/winre/reset-button.png)
+
+8. Attendez la fin de la réinitialisation.
+9. Suivez les instructions pour Windows 11 ou Windows 10 (en fonction de ce qui est installé) dans [Configuration de Windows](/windows-reinstall.html#configuration-de-windows) pour finaliser la réinitialisation.
 
 ::: tip
 Si la réinitialisation s'est bien passée, vous devriez maintenant posséder les droits d'administrateur.

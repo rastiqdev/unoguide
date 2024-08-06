@@ -14,12 +14,19 @@ Malheureusement, la méthode WinRE ne fonctionne que sur très peu d'ordinateurs
 
 1. Allumez votre ordinateur.
 2. Sur la page de connection, cliquez sur le bouton en bas à droite.
-3. Maintenez la touche `SHIFT` et cliquez sur `Redémarrer`, puis sur `Redémarrer maintenant`.
-4. Continuez à maintenir `SHIFT` jusqu'à ce que votre ordinateur redémarre, puis affiche le logo Windows avec un texte `Veuillez patienter`. Vous devriez normalement arriver sur l'écran suivant :
+3. Maintenez la touche `Shift` et cliquez sur `Redémarrer`, puis sur `Redémarrer maintenant` :
 
-![WinRE](/assets/images/winre.png)
+![](/assets/images/winre/reboot-context-menu.png)
 
-5. Si ce dernier est bien apparu, vous pouvez utiliser cette méthode et devez continuer sur [WinRE](/winre.html). Sinon, si Windows a démarré normalement, vous ne pouvez pas utiliser cette méthode et devrez utiliser une [méthode alternative](/winre-verification.html#methodes-alternatives).
+1. Continuez à maintenir `Shift` jusqu'à ce que votre ordinateur redémarre, puis affiche un texte `Veuillez patienter` ou `Patientez...` :
+
+![](/assets/images/winre/reboot.png)
+
+Vous devriez normalement arriver sur l'écran suivant :
+
+![WinRE](/assets/images/winre/menu.png)
+
+1. Si ce dernier est bien apparu, vous pouvez utiliser cette méthode et devez continuer sur [WinRE](/winre.html). Sinon, si Windows a démarré normalement, vous ne pouvez pas utiliser cette méthode et devrez utiliser une [méthode alternative](/winre-verification.html#methodes-alternatives).
 
 ## Méthodes alternatives
 
