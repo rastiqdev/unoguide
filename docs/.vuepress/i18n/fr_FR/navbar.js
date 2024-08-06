@@ -9,10 +9,9 @@ module.exports = [
     ],
   },
   {
-    text: 'Help',
+    text: 'Aide',
     children: [
       '/faq',
-      '/troubleshooting',
       {
         text: 'Discord',
         link: 'https://discord.gg/dw3ZJ9u7WS',
@@ -20,7 +19,7 @@ module.exports = [
     ],
   },
   {
-    text: 'Site Info',
+    text: 'Infos du site',
     children: [
       '/donations',
       '/credits',

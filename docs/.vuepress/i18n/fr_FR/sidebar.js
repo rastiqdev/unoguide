@@ -1,7 +1,6 @@
 const support = {
   text: 'Support',
   children: [
-    '/troubleshooting',
     '/faq',
     {
       text: 'Discord',
@@ -28,7 +27,8 @@ module.exports = {
         '/uefi-passwords',
         '/winre-verification',
         '/winre',
-        '/unlock-uefi'
+        '/unlock-uefi',
+        '/windows-reinstall'
       ],
     },
     support,
