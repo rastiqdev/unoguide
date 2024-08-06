@@ -145,7 +145,7 @@ Encore une fois, il faut suivre des instructions différentes en fonction de si 
 <details>
 <summary>Instructions pour Windows 11</summary>
 
-Commencer à configurer votre nouvelle installation jusqu'à arriver sur la page pour se connecter à Internet :
+Commencez à configurer votre nouvelle installation jusqu'à arriver sur la page pour se connecter à Internet :
 
 ![](/assets/images/win11-oobe-internet-screen.png)
 
@@ -166,6 +166,32 @@ Appuyez simultanément sur `Shift` et `F10` pour ouvrir l'invite de commandes, p
 3. Vous pouvez maintenant configurer votre compte local :
 
 ![](/assets/images/win11-oobe-local-account.png)
+
+::: tip
+N'oubliez pas de dire non à toutes les options concernant la vie privée pour envoyer le moins de données possibles à tonton Bill Gates. 😉
+:::
+</details>
+
+<details>
+<summary>Instructions pour Windows 10</summary>
+
+Commencez à configurer votre nouvelle installation jusqu'à arriver dans la catégorie `Compte` :
+
+![](/assets/images/win10-oobe-account-type-screen.png)
+
+1. Sélectionnez `Configurer pour une utilisation personnelle` puis cliquez sur `Suivant`.
+
+2. Cliquez sur `Compte hors connexion` :
+
+![](/assets/images/win10-oobe-ms-login-screen.png)
+
+3. Cliquez sur `Expérience limitée` :
+
+![](/assets/images/win10-oobe-ms-login2-screen.png)
+
+4. Vous pouvez maintenant configurer votre compte local :
+
+![](/assets/images/win10-oobe-local-account.png)
 
 ::: tip
 N'oubliez pas de dire non à toutes les options concernant la vie privée pour envoyer le moins de données possibles à tonton Bill Gates. 😉
