@@ -137,3 +137,37 @@ L'installateur sélectionnera automatiquement la version Windows 10 Pro Educatio
 
 7. Attendez que l'installation se termine.
 </details>
+
+## Configuration de Windows
+
+Encore une fois, il faut suivre des instructions différentes en fonction de si vous avez installé Windows 11 ou 10.
+
+<details>
+<summary>Instructions pour Windows 11</summary>
+
+Commencer à configurer votre nouvelle installation jusqu'à arriver sur la page pour se connecter à Internet :
+
+![](/assets/images/win11-oobe-internet-screen.png)
+
+1. Cliquez sur `Je n'ai pas Internet`.
+
+<details>
+<summary>Le bouton n'est pas présent ?</summary>
+
+Appuyez simultanément sur `Shift` et `F10` pour ouvrir l'invite de commandes, puis dedans entrez `oobe\bypassnro`. Votre Y13 va redémarrer, puis vous pourrez voir le bouton.
+
+![](/assets/images/win11-cmd-bypassnro-screen.png)
+</details>
+
+2. Cliquez sur `Continuer avec l'installation limitée` :
+
+![](/assets/images/win11-oobe-limited-button-screen.png)
+
+3. Vous pouvez maintenant configurer votre compte local :
+
+![](/assets/images/win11-oobe-local-account.png)
+
+::: tip
+N'oubliez pas de dire non à toutes les options concernant la vie privée pour envoyer le moins de données possibles à tonton Bill Gates. 😉
+:::
+</details>
