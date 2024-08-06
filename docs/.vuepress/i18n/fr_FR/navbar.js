@@ -3,9 +3,9 @@ module.exports = [
     text: 'Guides',
     children: [
       '/get-started',
-      '/winre',
-      '/unlock-uefi',
       '/uefi-passwords',
+      '/winre',
+      '/unlock-uefi'
     ],
   },
   {
