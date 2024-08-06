@@ -14,7 +14,7 @@ Si votre Y13 est un 2023, vous **avez** besoin d'une souris USB pour effectuer l
 :::
 
 ::: tip
-Si vous avez déjà une clé USB avec une image pour installer Windows (Ventoy ou simple ISO), vous pouvez directement passer au [démarrage sur la clé USB](/windows-reinstall.html#demarrage-sur-la-cle-usb). Également, si vous souhaitez flasher votre ISO avec un autre logiciel, tel que Balena Etcher ou dd, libre à vous de le faire.
+Si vous avez déjà une clé USB avec une image pour installer Windows (Ventoy ou simple ISO), vous pouvez directement passer au [démarrage sur la clé USB](/windows-reinstall#demarrage-sur-la-cle-usb). Également, si vous souhaitez flasher votre ISO avec un autre logiciel, tel que Balena Etcher ou dd, libre à vous de le faire.
 :::
 
 ## Télécharger une ISO de Windows

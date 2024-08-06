@@ -7,7 +7,7 @@ Cette page vous fera vérifier si votre Unowhy Y13 peut utiliser la méthode Win
 :::
 
 ::: warning
-Malheureusement, la méthode WinRE ne fonctionne que sur très peu d'ordinateurs, parce qu'elle se patch automatiquement dès que le Y13 se connecte pour la première fois à Internet. Si vous avez donc déjà connecté votre Y13 à Internet, vous devrez utiliser une [méthode alternative](/winre-verification.html#methodes-alternatives).
+Malheureusement, la méthode WinRE ne fonctionne que sur très peu d'ordinateurs, parce qu'elle se patch automatiquement dès que le Y13 se connecte pour la première fois à Internet. Si vous avez donc déjà connecté votre Y13 à Internet, vous devrez utiliser une [méthode alternative](/winre-verification#methodes-alternatives).
 :::
 
 ## Vérification de WinRE
@@ -26,7 +26,7 @@ Vous devriez normalement arriver sur l'écran suivant :
 
 ![WinRE](/assets/images/winre/menu.png)
 
-1. Si ce dernier est bien apparu, vous pouvez utiliser cette méthode et devez continuer sur [WinRE](/winre.html). Sinon, si Windows a démarré normalement, vous ne pouvez pas utiliser cette méthode et devrez utiliser une [méthode alternative](/winre-verification.html#methodes-alternatives).
+1. Si ce dernier est bien apparu, vous pouvez utiliser cette méthode et devez continuer sur [WinRE](/winre). Sinon, si Windows a démarré normalement, vous ne pouvez pas utiliser cette méthode et devrez utiliser une [méthode alternative](/winre-verification#methodes-alternatives).
 
 ## Méthodes alternatives
 

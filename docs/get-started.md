@@ -16,8 +16,8 @@ Selon l'année de votre Unowhy Y13, différentes méthodes existent pour effectu
 
 | Année | Méthode |
 | - | - |
-| 2022-2023 | [WinRE](/winre-verification.html) |
-| 2019-2021 | [Mots de passe de l'UEFI](/uefi-passwords.html) |
+| 2022-2023 | [WinRE](/winre-verification) |
+| 2019-2021 | [Mots de passe de l'UEFI](/uefi-passwords) |
 
 ## Pourquoi les mots de passe de l'UEFI n'ont pas été trouvés pour les Y13 construits après 2021 ?
 

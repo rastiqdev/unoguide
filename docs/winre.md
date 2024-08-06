@@ -7,11 +7,11 @@ Cette méthode consistera à utiliser le mode [WinRE](https://learn.microsoft.co
 :::
 
 ::: warning
-Cette page considère que vous venez de [Vérification de WinRE](/winre-verification.html).
+Cette page considère que vous venez de [Vérification de WinRE](/winre-verification).
 :::
 
 ::: danger
-En suivant cette page, tous les fichiers stockés sur votre Y13 seront supprimés. Soyez sûr d'avoir sauvegardé tous vos fichiers importants sur une clé USB. Si vous ne l'avez pas fait, cliquez sur `Continuer`, sauvegardez les fichiers, puis recommencez à partir de [Vérification de WinRE](/winre-verification.html).
+En suivant cette page, tous les fichiers stockés sur votre Y13 seront supprimés. Soyez sûr d'avoir sauvegardé tous vos fichiers importants sur une clé USB. Si vous ne l'avez pas fait, cliquez sur `Continuer`, sauvegardez les fichiers, puis recommencez à partir de [Vérification de WinRE](/winre-verification).
 :::
 
 ## Instructions
@@ -45,12 +45,12 @@ En suivant cette page, tous les fichiers stockés sur votre Y13 seront supprimé
 ![](/assets/images/winre/reset-button.png)
 
 8. Attendez la fin de la réinitialisation.
-9. Suivez les instructions pour Windows 11 ou Windows 10 (en fonction de ce qui est installé) dans [Configuration de Windows](/windows-reinstall.html#configuration-de-windows) pour finaliser la réinitialisation.
+9. Suivez les instructions pour Windows 11 ou Windows 10 (en fonction de ce qui est installé) dans [Configuration de Windows](/windows-reinstall#configuration-de-windows) pour finaliser la réinitialisation.
 
 ::: tip
 Si la réinitialisation s'est bien passée, vous devriez maintenant posséder les droits d'administrateur.
 :::
 
 ::: tip
-Continuez vers [Débloquer l'UEFI](/unlock-uefi.html).
+Continuez vers [Débloquer l'UEFI](/unlock-uefi).
 :::
