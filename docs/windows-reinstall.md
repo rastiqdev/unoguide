@@ -45,8 +45,8 @@ Cette méthode n'est qu'utile seulement si vous voulez utiliser une version plus
 
 ## Flasher l'ISO sur votre clé USB
 
-::: warning
-Il faut noter que flasher votre ISO sur votre clé USB va la formatter, donc tout ce qui est actuellement dessus sera effacé !
+::: danger
+Il faut noter que flasher votre ISO sur votre clé USB va la formatter, donc tout ce qui est actuellement dessus sera **effacé** !
 :::
 
 1. Ouvrez Rufus sur votre ordinateur avec les droits d'administrateur.
