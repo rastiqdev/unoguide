@@ -5,7 +5,8 @@ module.exports = [
       '/get-started',
       '/uefi-passwords',
       '/winre',
-      '/unlock-uefi'
+      '/unlock-uefi',
+      '/windows-reinstall'
     ],
   },
   {

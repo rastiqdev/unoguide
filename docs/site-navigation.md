@@ -13,9 +13,9 @@ title: Navigation du site
 
 + <router-link to="/get-started">Commencer</router-link>
 + <router-link to="/uefi-passwords">Mots de passe de l'UEFI</router-link>
-+ <router-link to="/winre">WinRE</router-link>
 + <router-link to="/unlock-uefi">Débloquer l'UEFI</router-link>
-
-## Autre
-
 + <router-link to="/windows-reinstall">Réinstallation de Windows</router-link>
+
+## Techniques
+
++ <router-link to="/winre">WinRE</router-link>
