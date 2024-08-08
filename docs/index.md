@@ -29,18 +29,24 @@ Littéralement, "s'échapper de la cage". Le terme vient des modifications de l'
 ## Pourquoi jailbreak votre Y13 ?
 
 Comme vous le savez déjà, la région ne nous a pas donné le meilleur ordinateur de tout les temps pour étudier : d'ailleurs, c'est probablement le pire qu'une région française ait donné à ses étudiants en réponse à la situation de la Covid-19. 
-- Ils ont de très mauvais composants : un Intel Celeron, 4GB de RAM avant la version 2023 (8GB maintenant), et une **eMMC** de 128GB (64GB avant la version 2023). 
+- Ils ont de très mauvais composants : un Intel Celeron (un Intel Pentium à partir de la rentrée 2024 !!!), 8 Go de RAM (4 Go avant les Y13 2023), et une **eMMC** de 128GB (64GB avant les Y13). 
 - La version modifiée de Windows qu'ils font tourner ne leur est pas du tout optimisée (et sérieusement, Windows 11 sur 4GB de RAM et une eMMC de 64 GB, qui a eu l'idée ???). 
-- En parlant de cette version de Windows non optimisée, elle contient aussi le logiciel HiSqool Manager, un spyware (logiciel espion) développé par la région qui peut envoyer votre nom, la localisation de l'ordinateur, les logiciels actuellement installés, le status de privilèges admin, et plein d'autres choses (la liste entière peut être trouvée sur la partie 4 de la [charte sur la "protection des données personnelles" des élèves,
-personnels enseignants et non enseignants de Unowhy](https://iledefrance-unowhy.com/charte-donnees/), qui n'est d'ailleurs mentionnée nul part).
+- En parlant de cette version de Windows non optimisée, elle contient aussi le logiciel HiSqool Manager, un spyware (logiciel espion) développé par la région qui peut envoyer des informations **critiques** sur votre ordinateur et ce qui est fait avec (voir la [*Charte sur la protection des données personnelles des élèves, personnels enseignants et non enseignants*](https://iledefrance-unowhy.com/charte-donnees/) article 4).
 
 Donc merci, Pécresse, mais malheureusement vous ne collecterez pas nos données. 🤡
 
 ## Est-ce légal de jailbreak son Unowhy Y13 ? Vais-je être sanctionné pour le faire ?
 
-Techniquement, tout comme pour tout autre appareil, le fait de **jailbreak** son Y13 est **légal**. Le fait de jailbreak un appareil ne viole pas les lois de droit d'auteur de la France ou de l'Union Européenne.
+Techniquement, tout comme pour tout autre appareil, le fait de jailbreak son Y13 *devrait* être légal, sachant que le fait de jailbreak un appareil ne viole pas les lois de droit d'auteur de la France ou de l'Union Européenne.
 
-Ni Unowhy, ni votre établissement ne devrait vous sanctionner pour avoir jailbreak votre Y13.
+Néanmoins, pour les Y13, ça se complique. En effet, dans l'article 3.2 de la [charte de protection des données et des conditions de prêt (2022)](https://assistanceidf.zendesk.com/hc/fr/article_attachments/8316254186396), il est écrit : 
+
+> L’utilisateur s’engage à ne pas tenter d’altérer la configuration initiale par quelque moyen que ce soit.
+
+Et l'article 5 dit qu'en non-respect des règles le Y13 pourrait être confisqué et l'élève pourrait recevoir des sanctions disciplinaires.
+
+Normalement, on ne verra pas que vous avez jailbreak votre Y13, mais comme on dit on n'est jamais sûr.
+Nous ne prenons donc **aucune** responsabilité pour le matériel confisqué à cause du jailbreak de ce dernier. (vous ne vous le ferez pas confisquer, on dit juste ça pour des raisons légales 😉)
 
 ## Que devrais-je savoir avant de jailbreak mon Unowhy Y13 ?
 
