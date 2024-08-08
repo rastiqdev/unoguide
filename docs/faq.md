@@ -21,9 +21,9 @@ Donc merci, Pécresse, mais malheureusement vous ne collecterez pas nos données
 
 ### Est-ce légal de jailbreak son Unowhy Y13 ? Vais-je être sanctionné pour le faire ?
 
-C'est pas écrit dans les conditions d'utilisations qu'on n'a pas le droit, donc on a le droit ¯\\\_(ツ)\_/¯
+Techniquement, tout comme pour tout autre appareil, le fait de **jailbreak** son Y13 est **légal**. Le fait de jailbreak un appareil ne viole pas les lois de droit d'auteur de la France ou de l'Union Européenne.
 
-Plus sérieusement, vous ne risquez rien au niveau des sanctions en jailbreakant votre Unowhy Y13. Des miliers de personnes l'ont fait et n'ont pas été sanctionné par qui que ce soit.
+Ni Unowhy, ni votre établissement ne devrait vous sanctionner pour avoir jailbreak votre Y13.
 
 ### Qu'est-ce que je peux faire après avoir jailbreak mon Unowhy Y13 ?
 
