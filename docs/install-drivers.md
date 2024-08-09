@@ -46,3 +46,43 @@ Une fenêtre `Contrôle de compte d'utilisateur` devrait apparaître pour vous d
 6. Une fois l'installation terminée, cliquez sur `Ok` :
 
 ![](/assets/images/ut-install/installed.png)
+
+7. Ouvrez `Unowhy Tools`.
+
+Vous allez encore avoir une fenêtre `Contrôle de compte d'utilisateur`, cliquez à nouveau sur `Oui`.
+
+8. Effectuez la configuration initiale du programme.
+
+## Installation des pilotes
+
+1. Ouvrez `Unowhy Tools` si ce n'est pas déjà fait.
+
+2. Ouvrez la catégorie `Pilotes` puis cliquez sur le bouton `Télécharger` à côté de `Restaurer les pilotes à partir du cloud` :
+
+![](/assets/images/ut-drivers/drivers_menu.png)
+
+3. Sélectionnez la version de votre Y13 :
+
+![](/assets/images/ut-drivers/version_select.png)
+
+4. Choisissez un pack de pilotes (souvent le 1er) puis cliquez sur `Restaurer` :
+
+![](/assets/images/ut-drivers/pack_select.png)
+
+Pour les Y13 2022, testez celui de SonHaon, et s'il y a des problèmes avec le son prenez celui de Thomazino :
+
+![](/assets/images/ut-drivers/pack_select_2022.png)
+
+Une fois l'installation du pack de pilotes terminée, redémarrez votre Y13, puis revenez sur le même menu de Unowhy Tools.
+
+5. Cliquez sur `Installer les pilotes iGPU` puis sur `Gemini/Jasper Lake` :
+
+![](/assets/images/ut-drivers/igpu.png)
+
+Une fois terminé, redémarrez encore votre Y13.
+
+::: tip
+Le gestionnaire de périphériques ne devrait plus afficher de périphérique non détecté :
+
+![](/assets/images/ut-drivers/devices.png)
+:::
