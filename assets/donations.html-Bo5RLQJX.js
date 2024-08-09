@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-b65724de","path":"/donations.html","title":"Dons","lang":"fr-FR","frontmatter":{"title":"Dons","description":"Supportez le guide en faisant un don !"},"headers":[],"git":{"updatedTime":1723107820000,"contributors":[{"name":"rastiqdev","email":"contact@rastiqdev.me","commits":3}]},"filePathRelative":"donations.md"}');export{t as data};
