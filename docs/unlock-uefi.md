@@ -26,21 +26,21 @@ Cette page va nous permettre de débloquer l'UEFI grâce à un outil créé par 
 
 4. Il se peut que votre Y13 ne soit pas bien detecté, si c'est le cas une confirmation de la version de votre Y13 vous sera demandée :
 
-![](/assets/images/unlock-uefi/unsure.png)
+![](/assets/images/bios-unlocker/unsure.png)
 
 5. Si vous répondez Oui à cette question ou que votre Y13 a été détecté dans une autre version, vous pourrez sélectionner la bonne version de votre Y13, sinon ignorez cette étape :
 
-![](/assets/images/unlock-uefi/version-selection.png)
+![](/assets/images/bios-unlocker/version-selection.png)
 
 6. Vous êtes maintenant prêt à flash l'UEFI de votre Y13. Fermez les programmes en arrière-plan, **branchez votre chargeur** et mettez `Y` :
 
-![](/assets/images/unlock-uefi/ready.png)
+![](/assets/images/bios-unlocker/ready.png)
 
 ::: danger
 Ne fermez **surtout pas** l'invite de commande et ne faites rien sur votre Y13 jusuqu'à ce qu'un texte vert disant `Done` apparaisse.
 :::
 
-![](/assets/images/unlock-uefi/done.png)
+![](/assets/images/bios-unlocker/done.png)
 
 ::: tip
 Si le texte `Done` est bien apparu, votre Y13 est à présent jailbreak et vous pouvez fermer l'invite de commande et l'éteindre sans problème. Vous pouvez maintenant accéder à l'UEFI en appuyant rapidement et plusieurs fois sur la touche `Échap` ou `Suppr` au démarrage de votre Y13.
