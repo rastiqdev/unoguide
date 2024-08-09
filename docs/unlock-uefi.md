@@ -47,5 +47,5 @@ Si le texte `Done` est bien apparu, votre Y13 est à présent jailbreak et vous 
 :::
 
 ::: danger
-Mais attention ! Il faut éviter de toucher les réglages du BIOS (en particulier ceux que vous ne connaissez pas) parce que cela peut rendre votre ordinateur **inutilisable**.
+Mais attention ! Il faut éviter de toucher les réglages de l'UEFI (en particulier ceux que vous ne connaissez pas) parce que cela peut rendre votre ordinateur **inutilisable**.
 :::
