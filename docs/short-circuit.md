@@ -153,3 +153,7 @@ C'est normal si les vis ne tiennent pas bien, c'est dû à la qualité déastreu
 :::
 
 Maintenant, réouvrez l'écran, puis, pour sortir de l'UEFI, allez dans la catégorie `Save & Exit` avec les touches `←` (flèche gauche) et `→` (flèche droite), puis sélectionnez `Discard Changes and exit` avec les touches `↓` (flèche bas) et `↑` (flèche haut) et appuyez sur la touche `↵` (entrer) pour redémarrer sur Windows.
+
+::: tip
+Continuez sur [Réinstallation de Windows](/windows-reinstall)
+:::

@@ -8,6 +8,7 @@ title: Réinstallation de Windows
 - Le logiciel [Rufus](https://rufus.ie/) à installer sur l'ordinateur mentionné ci-dessus
 - Une clé USB d'au moins 8 Go
 - Une souris USB (si votre Y13 est un 2023)
+- Un UEFI déverouillé sur votre Y13
 
 ::: warning
 Si votre Y13 est un 2023, vous **avez** besoin d'une souris USB pour effectuer l'installation de Windows. Les pilotes du pavé tactile ne sont pas inclus par défaut sur Windows donc vous ne pourrez pas l'utiliser tant que vous n'aurez pas réinstallé les pilotes, ce que nous ferons plus tard.
@@ -49,22 +50,39 @@ Cette méthode n'est qu'utile seulement si vous voulez utiliser une version plus
 Il faut noter que flasher votre ISO sur votre clé USB va la formatter, donc tout ce qui est actuellement dessus sera **effacé** !
 :::
 
-1. Ouvrez Rufus sur votre ordinateur avec les droits d'administrateur.
-2. Vérifiez que `Périphérique` est bien votre clé USB.
-3. Cliquez sur le bouton `SÉLECTION` puis sélectionnez votre ISO.
-4. Cliquez sur `DÉMARRER`.
-5. Un popup va apparaître, laissez les paramètres par défaut et cliquez sur `OK`.
-6. Une fois l'opération terminée, vous pouvez fermer Rufus et débranchez votre clé USB.
+1. (étape 1 sur l'image) Ouvrez Rufus sur votre ordinateur avec les droits d'administrateur et vérifiez que `Périphérique` est bien votre clé USB.
+2. (étapes 2-5 sur l'image) Cliquez sur le bouton `SÉLECTION` et sélectionnez votre ISO.
+3. (étape 6 sur l'image) Cliquez sur `DÉMARRER`.
+
+![](/assets/images/win-installer/rufus/iso_selection.png)
+
+Un popup va apparaître, laissez les paramètres par défaut et cliquez sur `OK` :
+
+Pour Windows 10 :
+
+![](/assets/images/win-installer/rufus/settings10.png)
+
+Pour Windows 11 :
+
+![](/assets/images/win-installer/rufus/settings11.png)
+
+Une fois l'opération terminée, vous pouvez fermer Rufus et débrancher votre clé USB.
 
 ## Démarrage sur la clé USB
 
 1. Branchez votre clé USB à votre Y13.
-1. Allumez votre Y13.
-2. Quand le logo Unowhy apparaît, appuyez rapidement et plusieurs fois sur la touche Échap jusqu'à rentrer dans le menu de l'UEFI.
-3. Allez dans la catégorie `Save & Exit` avec les touches `←` (flèche gauche) et `→` (flèche droite).
-4. Sélectionnez votre clé USB dans la catégorie `Boot Override` avec les touches `↓` (flèche bas) et `↑` (flèche haut) et appuyez sur la touche `↵` (entrer) pour démarrer.
-5. Appuyez sur n'importe quelle touche quand le texte `Press any key to boot from CD or DVD` apparaît.
-6. Attendez une vingtaine de secondes, le temps que l'installateur démarre.
+2. Allumez votre Y13.
+3. Quand le logo Unowhy apparaît, appuyez rapidement et plusieurs fois sur la touche `Échap` ou `Suppr` jusqu'à rentrer dans l'UEFI.
+4. Allez dans la catégorie `Save & Exit` avec les touches `←` (flèche gauche) et `→` (flèche droite).
+5. Sélectionnez votre clé USB dans la catégorie `Boot Override` avec les touches `↓` (flèche bas) et `↑` (flèche haut) et appuyez sur la touche `↵` (entrer) pour démarrer.
+
+![](/assets/images/win-installer/bootusb.png)
+
+6. Appuyez sur n'importe quelle touche quand le texte `Press any key to boot from CD or DVD` apparaît :
+
+![](/assets/images/win-installer/press-any-key.png)
+
+7. Attendez une vingtaine de secondes, le temps que l'installateur démarre.
 
 ## Installation de Windows
 
