@@ -4,9 +4,9 @@ module.exports = [
     children: [
       '/get-started',
       '/uefi-passwords',
-      '/winre',
-      '/unlock-uefi',
-      '/windows-reinstall'
+      '/short-circuit',
+      '/windows-reinstall',
+      '/install-drivers'
     ],
   },
   {

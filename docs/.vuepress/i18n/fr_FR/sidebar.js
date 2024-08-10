@@ -23,12 +23,12 @@ module.exports = {
     {
       text: 'UnoGuide',
       children: [
+        '/things-to-know',
         '/get-started',
         '/uefi-passwords',
-        '/winre-verification',
-        '/winre',
-        '/unlock-uefi',
-        '/windows-reinstall'
+        '/short-circuit',
+        '/windows-reinstall',
+        '/install-drivers'
       ],
     },
     support,
