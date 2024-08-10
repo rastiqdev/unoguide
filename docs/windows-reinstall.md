@@ -215,3 +215,9 @@ Commencez à configurer votre nouvelle installation jusqu'à arriver dans la cat
 N'oubliez pas de dire non à toutes les options concernant la vie privée pour envoyer le moins de données possibles à tonton Bill Gates. 😉
 :::
 </details>
+
+Maintenant que Windows est réinstallé, il faut également installer les pilotes de votre Y13.
+
+::: tip
+Continuez vers [Installation des pilotes](/install-drivers).
+:::
