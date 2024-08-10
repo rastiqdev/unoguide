@@ -7,18 +7,18 @@ Cette page vous fera vérifier si votre Unowhy Y13 peut utiliser la méthode Win
 :::
 
 ::: warning
-Malheureusement, la méthode WinRE ne fonctionne que sur très peu d'ordinateurs, parce qu'elle se patch automatiquement dès que le Y13 se connecte pour la première fois à Internet. Si vous avez donc déjà connecté votre Y13 à Internet, vous devrez utiliser une [méthode alternative](/winre-verification#methodes-alternatives).
+Malheureusement, la méthode WinRE ne fonctionne que sur très peu de Y13, parce qu'elle se patch automatiquement dès la première connexion à Internet. Si vous avez donc déjà connecté votre Y13 à Internet, vous devrez utiliser une [méthode alternative](/winre-verification#methodes-alternatives).
 :::
 
 ## Vérification de WinRE
 
-1. Allumez votre ordinateur.
+1. Allumez votre Y13.
 2. Sur la page de connection, cliquez sur le bouton en bas à droite.
 3. Maintenez la touche `Shift` et cliquez sur `Redémarrer`, puis sur `Redémarrer maintenant` :
 
 ![](/assets/images/winre/reboot-context-menu.png)
 
-1. Continuez à maintenir `Shift` jusqu'à ce que votre ordinateur redémarre, puis affiche un texte `Veuillez patienter` ou `Patientez...` :
+1. Continuez à maintenir `Shift` jusqu'à ce que votre Y13 redémarre, puis affiche un texte `Veuillez patienter` ou `Patientez...` :
 
 ![](/assets/images/winre/reboot.png)
 
@@ -30,4 +30,4 @@ Vous devriez normalement arriver sur l'écran suivant :
 
 ## Méthodes alternatives
 
-Si pour quelconque raison vous ne pouvez pas utiliser la méthode WinRE, vous devrez utiliser la méthode SSD, qui nécessitera d'ouvrir l'ordinateur et un SSD NVMe, ce qui coûte environ 15€. Sinon, vous pouvez utiliser le projet PKRSPLS (prononcé "Pécresse PLS", vous comprendrez donc le sens du nom), qui permet d'installer plusieurs applications qui demandent normalement les droits d'administrateur, sans en avoir besoin (ex : Blender ou Audacity).
+Si pour quelconque raison vous ne pouvez pas utiliser la méthode WinRE, vous devrez utiliser la méthode SSD, qui nécessitera d'ouvrir le Y13 et un SSD NVMe, ce qui coûte environ 15€. Sinon, vous pouvez utiliser le projet PKRSPLS (prononcé "Pécresse PLS", vous comprendrez donc le sens du nom), qui permet d'installer plusieurs applications qui demandent normalement les droits d'administrateur, sans en avoir besoin (ex : Blender ou Audacity).

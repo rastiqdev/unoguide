@@ -42,7 +42,7 @@ Un popup va apparaître, sélectionnez le mode ISO :
 
 ![](/assets/images/utpe/flash_mode.png)
 
-Une fois l'opération terminée, vous pouvez fermer Rufus et débranchez votre clé USB.
+Une fois l'opération terminée, vous pouvez fermer Rufus et débrancher votre clé USB.
 
 ## Préparation du Y13
 
@@ -64,7 +64,7 @@ Nous sommes maintenant prêt à mettre en place le court-circuit.
 
 ![](/assets/images/short-circuit/2023-heatsink.png)
 
-Si votre Y13 date de 2022 ou avant, vous n'avez pas besoin d'enlever le heatsink :
+Si votre Y13 date de 2022 ou avant, vous n'avez pas besoin d'enlever le heatsink, la partie de l'eMMC qu'on va court-circuiter est déjà accessible :
 
 ![](/assets/images/short-circuit/heatsink.png)
 
@@ -80,7 +80,7 @@ Sur un Y13 2022 ou avant :
 
 5. Branchez votre clé USB.
 
-6. Prenez votre tournevis ou autre objet métallique précis pour faire le court-circuit, puis court-circuitez au moins 2 des pins encadrés ci-dessous (une pression légère suffit, n'appuyez pas trop fort pour éviter d'endommager l'eMMC) :
+6. Prenez votre tournevis ou autre objet métallique précis pour faire le court-circuit, puis court-circuitez au moins 2 des pins que vous avez repérés (une pression légère suffit, n'appuyez pas trop fort pour éviter d'endommager l'eMMC) :
 
 ![](/assets/images/short-circuit/short-circuit.png)
 
@@ -90,13 +90,15 @@ Maintenant que le court-circuit est en place, nous pouvons passer au démarrage 
 
 1. Allumez votre Y13.
 
-Il se peut que vous voyiez un texte `UEFI Interactive Shell`. Si c'est le cas, écrivez juste `exit` puis faites *Entrer* :
+Il se peut que vous voyiez un texte `UEFI Interactive Shell`. Si c'est le cas, écrivez juste `exit` puis faites `↵` (touche entrer) :
 
 ![](/assets/images/short-circuit/uefi_shell.png)
 
 Si votre Y13 a bien démarré sur votre clé USB, vous devriez arriver sur cet écran :
 
 ![](/assets/images/utpe/home.png)
+
+Si c'est le cas, vous pouvez arrêter le court-circuit.
 
 Maintenant, on va flasher un nouvel UEFI pour le déverrouiller. 
 
@@ -112,7 +114,7 @@ Maintenant, on va flasher un nouvel UEFI pour le déverrouiller.
 
 ![](/assets/images/bios-unlocker/version-selection.png)
 
-5. Vous êtes maintenant prêt à flash l'UEFI de votre Y13. Fermez les programmes en arrière-plan, **branchez votre chargeur** et mettez `Y` :
+1. Vous êtes maintenant prêt à flash l'UEFI de votre Y13. **Branchez votre chargeur** et mettez `Y` :
 
 ![](/assets/images/bios-unlocker/ready.png)
 
@@ -138,8 +140,16 @@ Si le texte `Done` est bien apparu, vous pouvez fermer la fenêtre.
 Il se peut que le flash n'ait pas fonctionné du 1er coup. Si l'UEFI vous demande encore un mot de passe, vous devrez recommencer à partir de [Préparation du Y13](/short-circuit/#preparation-du-y13).
 :::
 
-Pour sortir de l'UEFI, allez dans la catégorie `Save & Exit` avec les touches `←` (flèche gauche) et `→` (flèche droite), puis sélectionnez `Discard and exit` avec les touches `↓` (flèche bas) et `↑` (flèche haut) et appuyez sur Entrer pour redémarrer sur Windows.
-
 ::: danger
-Il faut éviter de toucher les réglages du BIOS (en particulier ceux que vous ne connaissez pas) parce que cela peut rendre votre ordinateur **inutilisable**.
+Il faut éviter de toucher les réglages du BIOS (en particulier ceux que vous ne connaissez pas) parce que cela peut rendre votre Y13 **inutilisable**.
 :::
+
+## Réassemblage du Y13
+
+Fermez l'écran, puis revissez tout en place et remettez bien la blackplate.
+
+::: tip
+C'est normal si les vis ne tiennent pas bien, c'est dû à la qualité déastreuse des Y13...
+:::
+
+Maintenant, réouvrez l'écran, puis, pour sortir de l'UEFI, allez dans la catégorie `Save & Exit` avec les touches `←` (flèche gauche) et `→` (flèche droite), puis sélectionnez `Discard Changes and exit` avec les touches `↓` (flèche bas) et `↑` (flèche haut) et appuyez sur la touche `↵` (entrer) pour redémarrer sur Windows.

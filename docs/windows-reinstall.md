@@ -62,7 +62,7 @@ Il faut noter que flasher votre ISO sur votre clé USB va la formatter, donc tou
 1. Allumez votre Y13.
 2. Quand le logo Unowhy apparaît, appuyez rapidement et plusieurs fois sur la touche Échap jusqu'à rentrer dans le menu de l'UEFI.
 3. Allez dans la catégorie `Save & Exit` avec les touches `←` (flèche gauche) et `→` (flèche droite).
-4. Sélectionnez votre clé USB dans la catégorie `Boot Override` avec les touches `↓` (flèche bas) et `↑` (flèche haut) et appuyer sur Entrer pour démarrer.
+4. Sélectionnez votre clé USB dans la catégorie `Boot Override` avec les touches `↓` (flèche bas) et `↑` (flèche haut) et appuyez sur la touche `↵` (entrer) pour démarrer.
 5. Appuyez sur n'importe quelle touche quand le texte `Press any key to boot from CD or DVD` apparaît.
 6. Attendez une vingtaine de secondes, le temps que l'installateur démarre.
 

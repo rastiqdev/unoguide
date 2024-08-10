@@ -7,16 +7,22 @@ description: Réponses aux questions fréquemment posées à propos de UnoGuide.
 
 ### Qu'est-ce que le jailbreak ?
 
-Littéralement, "s'échapper de la cage". Le terme vient des modifications de l'iPhone, à cause de ses restrictions qui était beaucoup trop abusives. Ici, la cage sont toutes les restrictions données sur les Unowhy Y13 : pas d'accès à l'UEFI, pas d'accès au boot menu, et même pas d'accès aux droits d'administrateur sur les ordinateurs.
+Littéralement, "s'échapper de la cage". Le terme vient des modifications de l'iPhone, à cause de ses restrictions qui était beaucoup trop abusives. Ici, la cage sont toutes les restrictions données sur les Unowhy Y13 : pas d'accès à l'UEFI, pas d'accès au boot menu, et même pas d'accès aux droits d'administrateur dessus.
 
 ### Pourquoi jailbreak votre Y13 ?
 
 Comme vous le savez déjà, la région ne nous a pas donné le meilleur ordinateur de tout les temps pour étudier : d'ailleurs, c'est probablement le pire qu'une région française ait donné à ses étudiants en réponse à la situation de la Covid-19. 
 - Ils ont de très mauvais composants : un Intel Celeron (un Intel Pentium à partir de la rentrée 2024 !!!), 8 Go de RAM (4 Go avant les Y13 2023), et une **eMMC** de 128 Go (64 Go avant les Y13). 
 - La version modifiée de Windows qu'ils font tourner ne leur est pas du tout optimisée (et sérieusement, Windows 11 sur 4 Go de RAM et une eMMC de 64 Go, qui a eu l'idée ???). 
-- En parlant de cette version de Windows non optimisée, elle contient aussi le logiciel HiSqool Manager, un spyware (logiciel espion) développé par la région qui peut envoyer des informations **critiques** sur votre ordinateur et ce qui est fait avec (voir la [*Charte sur la protection des données personnelles des élèves, personnels enseignants et non enseignants*](https://iledefrance-unowhy.com/charte-donnees/) article 4).
+- En parlant de cette version de Windows non optimisée, elle contient aussi le logiciel HiSqool Manager, un spyware (logiciel espion) développé par la région qui peut envoyer des informations **critiques** sur votre Y13 et ce qui est fait avec (voir la [*Charte sur la protection des données personnelles des élèves, personnels enseignants et non enseignants*](https://iledefrance-unowhy.com/charte-donnees/) article 4).
 
 Donc merci, Pécresse, mais malheureusement vous ne collecterez pas nos données. 🤡
+
+### Qu'est-ce que je peux faire après avoir jailbreak mon Unowhy Y13 ?
+
+- Installer n'importe quel programme grâce aux droits d'administrateur.
+- Modifier l'UEFI (avec Unowhy Tools).
+- Démarrer sur une clé USB (par exemple pour une distribution live Linux).
 
 ### Est-ce légal de jailbreak son Unowhy Y13 ? Vais-je être sanctionné pour le faire ?
 
@@ -31,13 +37,7 @@ Et l'article 5 dit qu'en non-respect des règles le Y13 pourrait être confisqu�
 Normalement, on ne verra pas que vous avez jailbreak votre Y13, surtout que Unowhy n'a même pas publié en ligne la charte de protection des données et des conditions de prêt de 2023, mais comme on dit on n'est jamais sûr.
 Nous ne prenons donc **aucune** responsabilité pour le matériel confisqué à cause du jailbreak de ce dernier. (vous ne vous le ferez pas confisquer, on dit juste ça pour des raisons légales 😉)
 
-### Qu'est-ce que je peux faire après avoir jailbreak mon Unowhy Y13 ?
+### Que devrais-je savoir d'autre avant de jailbreak mon Unowhy Y13 ?
 
-- Installer n'importe quel programme grâce aux droits d'administrateur.
-- Modifier l'UEFI (avec Unowhy Tools)
-- Démarrer sur une clé USB (par exemple pour une distribution live Linux)
-
-### Que devrais-je savoir avant de jailbreak mon Unowhy Y13 ?
-
-- Si tout se passe comme prévu, votre ordinateur sera jailbreak sans perte de données.
-- Laissez l'ordinateur branché à une source d'énergie pendant l'entièreté du guide pour eviter un arrêt innatendu.
+- Si tout se passe comme prévu, votre Y13 sera jailbreak sans perte de données.
+- Laissez le Y13 branché à une source d'énergie pendant l'entièreté du guide pour eviter un arrêt innatendu.
