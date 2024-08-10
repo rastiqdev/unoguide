@@ -56,5 +56,3 @@ Avant de suivre ce guide, il est important de savoir le risque du jailbreak : ch
 
 - Si tout se passe comme prévu, votre ordinateur sera jailbreak sans perte de données.
 - Laissez l'ordinateur branché à une source d'énergie pendant l'entièreté du guide pour eviter un arrêt innatendu.
-- Le jailbreak peut vous permettre de débloquer votre système mais peut mener à une perte de données si vous endommagez l'OS.
-- Il est probable que la garantie et le support soient annulés pour votre ordinateur si vous le jailbreakez.
