@@ -34,8 +34,7 @@ Néanmoins, pour les Y13, ça se complique. En effet, dans l'article 3.2 de la [
 
 Et l'article 5 dit qu'en non-respect des règles le Y13 pourrait être confisqué et l'élève pourrait recevoir des sanctions disciplinaires.
 
-Normalement, on ne verra pas que vous avez jailbreak votre Y13, surtout que Unowhy n'a même pas publié en ligne la charte de protection des données et des conditions de prêt de 2023, mais comme on dit on n'est jamais sûr.
-Nous ne prenons donc **aucune** responsabilité pour le matériel confisqué à cause du jailbreak de ce dernier. (vous ne vous le ferez pas confisquer, on dit juste ça pour des raisons légales 😉)
+Normalement, on ne verra pas que vous avez jailbreak votre Y13, surtout que Unowhy sont tellement incompétents qu'ils n'ont même pas publié d'autres chartes que celle de 2022 (en gros pour ceux qui ont accepté sur HiSqool les autres années que 2022, vous pouvez même plus voir ce que vous avez accepté 🤡), mais nous ne prendrons pas de responsabilités si vous vous le faites confisquer.
 
 ### Que devrais-je savoir d'autre avant de jailbreak mon Unowhy Y13 ?
 
