@@ -28,7 +28,8 @@ module.exports = {
         '/uefi-passwords',
         '/short-circuit',
         '/windows-reinstall',
-        '/install-drivers'
+        '/install-drivers',
+        '/unlock-uefi'
       ],
     },
     support,

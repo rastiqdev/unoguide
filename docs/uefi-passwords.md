@@ -22,3 +22,9 @@ Vous aurez besoin de savoir quelle version de l'UEFI vous avez, parce que le mot
 | 2021 (`ENE_2`) | `_zjeQSK(xC` |
 | 2021 (`ENE_1`) | `wF(VqfSnsD` |
 | 2019-2020 (`ENE/TIMING`) | `F_Hv'U"T-è` |
+
+Notez le mot de passe correspondant à votre version, vous en aurez besoin plus tard. 😉
+
+::: tip
+Continuez vers [Réinstallation de Windows](/windows-reinstall).
+:::

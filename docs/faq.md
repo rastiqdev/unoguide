@@ -7,7 +7,7 @@ description: Réponses aux questions fréquemment posées à propos de UnoGuide.
 
 ### Qu'est-ce que le jailbreak ?
 
-Littéralement, "s'échapper de la cage". Le terme vient des modifications de l'iPhone, à cause de ses restrictions qui était beaucoup trop abusives. Ici, la cage sont toutes les restrictions données sur les Unowhy Y13 : pas d'accès à l'UEFI, pas d'accès au boot menu, et même pas d'accès aux droits d'administrateur dessus.
+Littéralement, "s'échapper de la cage". Le terme vient des modifications de l'iPhone, à cause de ses restrictions qui était beaucoup trop abusives. Ici, la cage représente toutes les restrictions données sur les Unowhy Y13 : pas d'accès à l'UEFI, pas d'accès au boot menu, et même pas d'accès aux droits d'administrateur dessus.
 
 ### Pourquoi jailbreak votre Y13 ?
 

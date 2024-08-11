@@ -47,3 +47,7 @@ Le gestionnaire de périphériques ne devrait plus afficher de périphérique no
 ::: tip
 Si c'est le cas, bravo, votre Y13 peut maintenant bénéficier de tous les avantages du fait qu'il soit jailbreak !! 😃
 :::
+
+::: tip
+Si vous avez un Y13 2019-2021 et que vous voulez déverouiller votre UEFI, continuez sur [Déverouiller l'UEFI (droits admin)](/unlock-uefi).
+:::

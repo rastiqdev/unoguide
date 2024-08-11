@@ -8,7 +8,7 @@ title: Réinstallation de Windows
 - Le logiciel [Rufus](https://rufus.ie/) à installer sur l'ordinateur mentionné ci-dessus
 - Une clé USB d'au moins 8 Go
 - Une souris USB (si votre Y13 est un 2023)
-- Un UEFI déverouillé sur votre Y13
+- [Un UEFI déverouillé sur les Y13 2022-2023](/short-circuit)
 
 ::: warning
 Si votre Y13 est un 2023, vous **avez** besoin d'une souris USB pour effectuer l'installation de Windows. Les pilotes du pavé tactile ne sont pas inclus par défaut sur Windows donc vous ne pourrez pas l'utiliser tant que vous n'aurez pas réinstallé les pilotes, ce que nous ferons plus tard.
@@ -73,6 +73,11 @@ Une fois l'opération terminée, vous pouvez fermer Rufus et débrancher votre c
 1. Branchez votre clé USB à votre Y13.
 2. Allumez votre Y13.
 3. Quand le logo Unowhy apparaît, appuyez rapidement et plusieurs fois sur la touche `Échap` ou `Suppr` jusqu'à rentrer dans l'UEFI.
+
+::: tip
+Si vous avez un Y13 de 2019-2021, vous devrez mettre le mot de passe que vous avez précedemment noté.
+:::
+
 4. Allez dans la catégorie `Save & Exit` avec les touches `←` (flèche gauche) et `→` (flèche droite).
 5. Sélectionnez votre clé USB dans la catégorie `Boot Override` avec les touches `↓` (flèche bas) et `↑` (flèche haut) et appuyez sur la touche `↵` (entrer) pour démarrer.
 

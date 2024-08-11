@@ -3,15 +3,19 @@ title: WinRE
 ---
 
 ::: tip
-Cette méthode consistera à utiliser le mode [WinRE](https://learn.microsoft.com/fr-fr/windows-hardware/manufacture/desktop/windows-recovery-environment--windows-re--technical-reference?view=windows-11) intégré dans Windows 11 pour pouvoir "réinitialiser" (ce qui n'est pas entièrement vrai, on reste toujours sur la version modifiée de la région avec HiSqool Manager) Windows afin d'obtenir les droits d'administrateur.
+<details>
+<summary>Fonctionnement de la méthode</summary>
+
+Cette méthode consistera à utiliser le mode [WinRE](https://learn.microsoft.com/fr-fr/windows-hardware/manufacture/desktop/windows-recovery-environment--windows-re--technical-reference?view=windows-11) intégré dans Windows 11/10 pour pouvoir "réinitialiser" Windows (ce qui n'est pas entièrement vrai, on reste toujours sur la version modifiée de la région avec HiSqool Manager) afin d'obtenir les droits d'administrateur.
+</details>
+:::
+
+::: warning
+Cette page est gardée pour des raisons historiques, ne suivez pas cette méthode si vous ne savez pas ce que vous faites.
 :::
 
 ::: warning
 Cette page considère que vous venez de [Vérification de WinRE](/winre-verification).
-:::
-
-::: danger
-En suivant cette page, tous les fichiers stockés sur votre Y13 seront supprimés. Soyez sûr d'avoir sauvegardé tous vos fichiers importants sur une clé USB. Si vous ne l'avez pas fait, cliquez sur `Continuer`, sauvegardez les fichiers, puis recommencez à partir de [Vérification de WinRE](/winre-verification).
 :::
 
 ## Instructions
@@ -52,5 +56,5 @@ Si la réinitialisation s'est bien passée, vous devriez maintenant posséder le
 :::
 
 ::: tip
-Continuez vers [Débloquer l'UEFI](/unlock-uefi).
+Continuez vers [Déverouiller l'UEFI (droits admin)](/unlock-uefi).
 :::

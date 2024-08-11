@@ -1,9 +1,9 @@
 ---
-title: Débloquer l'UEFI (droits admin)
+title: Déverouiller l'UEFI (droits admin)
 ---
 
 ::: tip
-Cette page va nous permettre de débloquer l'UEFI grâce à un outil créé par [STY1001](https://github.com/sty1001) afin de pouvoir faire une réinstallation complète de Windows.
+Cette page va nous permettre de déverouiller l'UEFI grâce à un outil créé par [STY1001](https://github.com/sty1001) afin de pouvoir faire une réinstallation complète de Windows.
 :::
 
 ## Ce dont vous aurez besoin
@@ -48,4 +48,8 @@ Si le texte `Done` est bien apparu, votre Y13 est à présent jailbreak et vous 
 
 ::: danger
 Mais attention ! Il faut éviter de toucher les réglages de l'UEFI (en particulier ceux que vous ne connaissez pas) parce que cela peut rendre votre ordinateur **inutilisable**.
+:::
+
+::: tip
+Si vous suivez la méthode WinRE, continuez vers [Réinstallation de Windows](/windows-reinstall).
 :::
