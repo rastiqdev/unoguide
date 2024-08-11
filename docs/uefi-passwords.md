@@ -10,10 +10,6 @@ Vous aurez besoin de savoir quelle version de l'UEFI vous avez, parce que le mot
 
 | Année | Mot de passe |
 | - | - |
-| 2023 (`JS116_VO.0.20.11`) | Non trouvé |
-| 2023 (`JS116_V0.20.15`) | Non trouvé |
-| 2022 (`ENE (v0.2.1)`) | Non trouvé |
-| 2022 (`ENE (v0.1.1)`) | Non trouvé |
 | 2021 (`ENE_7`) | `PYHèQdé_'q` |
 | 2021 (`ENE_6`) | `YqJ(_(,kXg` |
 | 2021 (`ENE_5`) | `è','?EHzeè` |
