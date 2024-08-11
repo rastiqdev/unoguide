@@ -10,10 +10,6 @@ heroImage: /assets/images/splash-image.png
 heroFilter: 0.5
 ---
 
-::: danger
-Attention, ce guide est encore loin d'être terminé, ne le commencez pas tant que ce message apparaît si vous ne savez pas ce que vous faites.
-:::
-
 ::: tip
 Ce guide a été inspiré par toutes les recherches faites par [STY1001](https://sty1001.com) et la [\{unocorp\}](https://discord.com/invite/dw3ZJ9u7WS), un grand merci à eux.
 :::
