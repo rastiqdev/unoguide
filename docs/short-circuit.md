@@ -1,5 +1,5 @@
 ---
-title: "Déverouillage de l'UEFI (court-circuit/UTPE)"
+title: Déverouillage de l'UEFI (court-circuit/UTPE)
 ---
 
 ::: tip
@@ -8,7 +8,7 @@ title: "Déverouillage de l'UEFI (court-circuit/UTPE)"
 
 Quand vous allumez votre Y13, l'UEFI va lister tous les périphériques à partir desquels il peut démarrer et va placer l'eMMC (stockage interne du Y13, là où il y a Windows) en premier dans l'ordre de démarrage. Si on démarre le Y13 avec une clé USB branchée, c'est sur l'eMMC que le Y13 va démarrer par défaut.
 
-Il faut donc faire en sorte que l'eMMC ne soit pas détectée par l'UEFI. Jusqu'à il y a quelque mois, la seule solution était d'arracher l'eMMC et de mettre un SSD vide dans le Y13, ce qui permettait d'améliorer au passage le stockage, mais c'était une opération risquée.
+Il faut donc faire en sorte que l'eMMC ne soit pas détectée par l'UEFI. Jusqu'à il y a quelque mois, la seule solution était d'arracher l'eMMC et de mettre un SSD vide dans le Y13, ce qui permettait d'améliorer au passage le stockage, mais c'était une opération risquée et coûteuse.
 
 Heureusement, STY1001 a trouvé qu'il est possible de court-circuiter 2 pins d'une certaine partie de l'eMMC (les pins DATAx) pour ne pas que cette dernière soit détectée.
 

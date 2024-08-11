@@ -1,5 +1,5 @@
 ---
-title: "Commencer"
+title: Commencer
 ---
 
 ## Sélection d'une méthode

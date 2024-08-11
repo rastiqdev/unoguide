@@ -1,5 +1,5 @@
 ---
-title: Débloquer l'UEFI
+title: Débloquer l'UEFI (droits admin)
 ---
 
 ::: tip

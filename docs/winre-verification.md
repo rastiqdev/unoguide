@@ -24,7 +24,7 @@ Malheureusement, la méthode WinRE ne fonctionne que sur très peu de Y13, parce
 
 Vous devriez normalement arriver sur l'écran suivant :
 
-![WinRE](/assets/images/winre/menu.png)
+![](/assets/images/winre/menu.png)
 
 1. Si ce dernier est bien apparu, vous pouvez utiliser cette méthode et devez continuer sur [WinRE](/winre). Sinon, si Windows a démarré normalement, vous ne pouvez pas utiliser cette méthode et devrez utiliser une [méthode alternative](/winre-verification#methodes-alternatives).
 

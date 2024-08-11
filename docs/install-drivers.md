@@ -1,5 +1,5 @@
 ---
-title: "Installation des pilotes"
+title: Installation des pilotes
 ---
 
 ::: tip
@@ -9,7 +9,7 @@ Cette page est donc dédiée à l'installation des pilotes nécessaires.
 
 ## Choses nécessaires
 
-- Les droits administrateurs sur votre Y13 (par exemple Windows réinstallé)
+- Les droits d'administrateur sur votre Y13
 - [Unowhy Tools](/install-unowhy-tools)
 
 ## Installation des pilotes

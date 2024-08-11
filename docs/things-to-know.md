@@ -1,5 +1,5 @@
 ---
-title: "Choses à savoir avant de commencer"
+title: Choses à savoir avant de commencer
 ---
 
 ## Est-ce légal de jailbreak son Unowhy Y13 ? Vais-je être sanctionné pour le faire ?
@@ -12,7 +12,7 @@ Néanmoins, pour les Y13, ça se complique. En effet, dans l'article 3.2 de la [
 
 Et l'article 5 dit qu'en non-respect des règles le Y13 pourrait être confisqué et l'élève pourrait recevoir des sanctions disciplinaires.
 
-Normalement, on ne verra pas que vous avez jailbreak votre Y13, surtout que Unowhy n'a même pas publié en ligne la charte de protection des données et des conditions de prêt de 2023, mais comme on dit on n'est jamais sûr.
+Normalement, on ne verra pas que vous avez jailbreak votre Y13, surtout que Unowhy sont tellement incompétents qu'ils n'ont même pas publié d'autres chartes que celle de 2022 (en gros pour ceux qui ont accepté sur HiSqool les autres années que 2022, vous pouvez même plus voir ce que vous avez accepté 🤡).
 Nous ne prenons donc **aucune** responsabilité pour le matériel confisqué à cause du jailbreak de ce dernier. (vous ne vous le ferez pas confisquer, on dit juste ça pour des raisons légales 😉)
 
 ## Que devrais-je savoir d'autre avant de jailbreak mon Unowhy Y13 ?
@@ -27,6 +27,10 @@ Attention, la plupart des méthodes vont à un moment ou un autre vous demander 
 
 - Si tout se passe comme prévu, votre Y13 sera jailbreak sans perte de données.
 - Laissez le Y13 branché à une source d'énergie pendant l'entièreté du guide pour eviter un arrêt innatendu.
+
+::: danger
+Les instructions du guide ont été testées et sont considérées comme sûres, donc suivez les bien. Nous ne serons pas responsables des Y13 rendus inutilisables si vous n'avez pas correctement suivi le guide !!
+:::
 
 ::: tip
 Continuez vers [Commencer](/get-started).
