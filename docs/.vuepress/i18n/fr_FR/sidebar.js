@@ -27,6 +27,7 @@ module.exports = {
         '/get-started',
         '/uefi-passwords',
         '/short-circuit',
+        '/short-circuit-(gen2)',
         '/windows-reinstall',
         '/install-drivers',
         '/unlock-uefi'

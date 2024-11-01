@@ -7,7 +7,7 @@ Cette page est gardée pour des raisons historiques, ne suivez pas cette méthod
 :::
 
 ::: warning
-Malheureusement, la méthode WinRE ne fonctionne que sur très peu de Y13, parce qu'elle se patch automatiquement dès la première connexion à Internet. Si vous avez donc déjà connecté votre Y13 à Internet, vous devez continuer sur [Déverouillage de l'UEFI (court-circuit/UTPE)](/short-circuit).
+Malheureusement, la méthode WinRE ne fonctionne que sur très peu de Y13, parce qu'elle se patch automatiquement dès la première connexion à Internet. Si vous avez donc déjà connecté votre Y13 à Internet, vous devez continuer sur [Déverouillage de l'UEFI (court-circuit/UTPE, Gen 1)](/short-circuit) ou [Déverouillage de l'UEFI (court-circuit/UTPE, Gen 2)](/short-circuit-(gen2)) en fonction de [la génération de votre Y13](/get-started).
 :::
 
 ## Vérification de WinRE
@@ -26,4 +26,4 @@ Vous devriez normalement arriver sur l'écran suivant :
 
 ![](/assets/images/winre/menu.png)
 
-Si ce dernier est bien apparu, vous pouvez utiliser cette méthode et devez continuer sur [WinRE](/winre). Sinon, si Windows a démarré normalement, vous ne pouvez pas utiliser cette méthode et devez continuer sur [Déverouillage de l'UEFI (court-circuit/UTPE)](/short-circuit).
+Si ce dernier est bien apparu, vous pouvez utiliser cette méthode et devez continuer sur [WinRE](/winre). Sinon, si Windows a démarré normalement, vous ne pouvez pas utiliser cette méthode et devez continuer sur [Déverouillage de l'UEFI (court-circuit/UTPE, Gen 1)](/short-circuit) ou [Déverouillage de l'UEFI (court-circuit/UTPE, Gen 2)](/short-circuit-(gen2)) en fonction de [la génération de votre Y13](/get-started).

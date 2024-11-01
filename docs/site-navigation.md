@@ -14,7 +14,8 @@ title: Navigation du site
 + <router-link to="/things-to-know">Choses à savoir avant de commencer</router-link>
 + <router-link to="/get-started">Commencer</router-link>
 + <router-link to="/uefi-passwords">Mots de passe de l'UEFI</router-link>
-+ <router-link to="/short-circuit">Déverouillage de l'UEFI (court-circuit/UTPE)</router-link>
++ <router-link to="/short-circuit">Déverouillage de l'UEFI (court-circuit/UTPE, Gen 1)</router-link>
++ <router-link to="/short-circuit-(gen2)">Déverouillage de l'UEFI (court-circuit/UTPE, Gen 2)</router-link>
 + <router-link to="/windows-reinstall">Réinstallation de Windows</router-link>
 + <router-link to="/install-drivers">Installation des pilotes</router-link>
 + <router-link to="/unlock-uefi">Déverouiller l'UEFI (droits admin)</router-link>

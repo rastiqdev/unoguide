@@ -1,5 +1,5 @@
 ---
-title: Déverouillage de l'UEFI (court-circuit/UTPE, Gen 1)
+title: Déverouillage de l'UEFI (court-circuit/UTPE, Gen 2)
 ---
 
 ::: tip
@@ -55,34 +55,24 @@ Nous sommes maintenant prêt à mettre en place le court-circuit.
 
 ## Mise en place du court-circuit
 
-1. Dévissez les 14 vis à l'arrière du Y13 (il y en a 2 sous les patins encadrés) :
+1. Dévissez les 10 vis à l'arrière du Y13 :
 
-![](/assets/images/short-circuit/chassis-screws.png)
+![](/assets/images/short-circuit/gen2/chassis-screws.png)
 
 2. Retirez la backplate (plaque du bas).
-3. Si vous avez un Y13 2023, vous aurez également besoin de localiser le heatsink et de dévisser les 4 vis qui le maintiennent en place :
+3. Dévisser les 4 vis qui maintiennent en place le heatsink :
 
-![](/assets/images/short-circuit/2023-heatsink.png)
-
-Si votre Y13 date de 2022 ou avant, vous n'avez pas besoin d'enlever le heatsink, la partie de l'eMMC qu'on va court-circuiter est déjà accessible :
-
-![](/assets/images/short-circuit/heatsink.png)
+![](/assets/images/short-circuit/gen2/heatsink.png)
 
 4. Repérez l'eMMC (il y a écrit eMMC dessus donc c'est censé être facile) puis repérez les 8 pins que vous pouvez court-circuiter :
 
-Sur un Y13 2023 :
-
-![](/assets/images/short-circuit/2023-emmc.png)
-
-Sur un Y13 2022 ou avant :
-
-![](/assets/images/short-circuit/emmc.png)
+![](/assets/images/short-circuit/gen2/emmc.png)
 
 5. Branchez votre clé USB.
 
 6. Prenez votre tournevis ou autre objet métallique précis pour faire le court-circuit, puis court-circuitez au moins 2 des pins que vous avez repérés (une pression légère suffit, n'appuyez pas trop fort pour éviter d'endommager l'eMMC) :
 
-![](/assets/images/short-circuit/short-circuit.png)
+![](/assets/images/short-circuit/gen2/short-circuit.png)
 
 Maintenant que le court-circuit est en place, nous pouvons passer au démarrage sur la clé USB.
 
@@ -137,7 +127,7 @@ Si le texte `Done` est bien apparu, vous pouvez fermer la fenêtre.
 ![](/assets/images/splash-image.png)
 
 ::: tip
-Il se peut que le flash n'ait pas fonctionné du 1er coup. Si l'UEFI vous demande encore un mot de passe, vous devrez recommencer à partir de [Préparation du Y13](/short-circuit/#preparation-du-y13).
+Il se peut que le flash n'ait pas fonctionné du 1er coup. Si l'UEFI vous demande encore un mot de passe, vous devrez recommencer à partir de [Préparation du Y13](/short-circuit-(gen2)/#preparation-du-y13).
 :::
 
 ::: danger

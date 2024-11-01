@@ -8,7 +8,7 @@ title: Réinstallation de Windows
 - Le logiciel [Rufus](https://rufus.ie/) à installer sur l'ordinateur mentionné ci-dessus
 - Une clé USB d'au moins 8 Go
 - Une souris USB (si votre Y13 est un 2023)
-- [Un UEFI déverouillé sur les Y13 2022-2023](/short-circuit)
+- [Un UEFI déverouillé sur les Y13 2022-2024](/get-started)
 
 ::: warning
 Si votre Y13 est un 2023, vous **avez** besoin d'une souris USB pour effectuer l'installation de Windows. Les pilotes du pavé tactile ne sont pas inclus par défaut sur Windows donc vous ne pourrez pas l'utiliser tant que vous n'aurez pas réinstallé les pilotes, ce que nous ferons plus tard.

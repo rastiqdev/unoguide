@@ -8,7 +8,8 @@ Selon l'année de votre Unowhy Y13, différentes méthodes existent pour effectu
 
 | Année | Méthode |
 | - | - |
-| 2022-2023 | [Déverouillage de l'UEFI (court-circuit/UTPE)](/short-circuit) |
+| 2024 | [Déverouillage de l'UEFI (court-circuit/UTPE, Gen 2)](/short-circuit-(gen2)) |
+| 2022-2023 | [Déverouillage de l'UEFI (court-circuit/UTPE, Gen 1)](/short-circuit) |
 | 2019-2021 | [Mots de passe de l'UEFI](/uefi-passwords) |
 
 ## Pourquoi les mots de passe de l'UEFI n'ont pas été trouvés pour les Y13 construits après 2021 ?
